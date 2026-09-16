@@ -1,0 +1,90 @@
+{
+  "source": "example stories reviewed 2026-09-15",
+  "formats": [
+    {
+      "id": "F01",
+      "name": "Slice-of-life clip",
+      "desc": "Ordinary domestic moment, hands and surfaces, face optional",
+      "recipe": {
+        "visual": "5-15s vertical clip",
+        "caption": "lowercase, ≤4 words, one emoji",
+        "sticker": "none"
+      },
+      "share": 0.35
+    },
+    {
+      "id": "F02",
+      "name": "Handwritten / analog text post",
+      "desc": "Whiteboard, fridge note, mirror-marker message photographed",
+      "recipe": {
+        "visual": "photo of the note",
+        "caption": "none — the note is the caption",
+        "sticker": "optional"
+      },
+      "share": 0.1
+    },
+    {
+      "id": "F03",
+      "name": "Meme / screenshot repost",
+      "desc": "Text-message meme in her niche voice, credit tag",
+      "recipe": {
+        "visual": "meme centered on plain background",
+        "caption": "credit tag small",
+        "sticker": "none"
+      },
+      "share": 0.1
+    },
+    {
+      "id": "F04",
+      "name": "Aesthetic B-roll",
+      "desc": "No-face scene-setter that establishes the niche lifestyle",
+      "recipe": {
+        "visual": "one photo or slow pan",
+        "caption": "none or a location word",
+        "sticker": "none"
+      },
+      "share": 0.15
+    },
+    {
+      "id": "F05",
+      "name": "Recurring prop / in-joke object",
+      "desc": "Named physical object recurring weekly",
+      "recipe": {
+        "visual": "object in a new situation",
+        "caption": "in-joke reference",
+        "sticker": "none"
+      },
+      "share": 0.05
+    },
+    {
+      "id": "F06",
+      "name": "BTS operator flex",
+      "desc": "The unglamorous machinery of her actual work",
+      "recipe": {
+        "visual": "wide workspace/setup shot",
+        "caption": "deadpan",
+        "sticker": "none"
+      },
+      "share": 0.05
+    },
+    {
+      "id": "F07",
+      "name": "Edgy event / candid spice",
+      "desc": "Spicy-adjacent candid shot like a camera roll accident; carrier for the niche cf_angles teases",
+      "recipe": {
+        "visual": "candid framing, imperfect light",
+        "caption": "none or one emoji",
+        "sticker": "none"
+      },
+      "share": 0.15,
+      "max_per_day": 1
+    }
+  ],
+  "mix_rules": [
+    "open the day with F04 or F01, never F07",
+    "max one F07 per day",
+    "every third story carries a reply mechanic (poll/question/DM bait)",
+    "F05 recurs on a fixed weekday",
+    "interactive stickers (~5%) attach to any format"
+  ]
+}
