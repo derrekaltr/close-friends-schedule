@@ -1,0 +1,448 @@
+{
+  "source": "modelsniche taxonomy, verified 2026-08-26; ported 2026-09-15",
+  "operating_model": "B1",
+  "niches": [
+    {
+      "code": "A1",
+      "family": "Aesthetic-led",
+      "name": "Girl-next-door / natural-relatable",
+      "one_liner": "\"A real girl you could actually meet\" — attainability is the product",
+      "fit": "High",
+      "fit_note": "cheapest to execute, but saturated; works best as the *base* under a differentiator",
+      "voice": "chatty, self-deprecating, ♡ and 🥺, soft coded CTAs",
+      "visual": "natural light, phone selfies, bedroom/kitchen/car, minimal retouching",
+      "audience": "broad male 20–45 buying accessibility and responsiveness",
+      "hybrids": "any trait or lifestyle niche; GFE as the DM layer",
+      "cf_angles": [
+        "just-woke-up bedhead selfie",
+        "\"help me pick\" outfit poll",
+        "day-in-my-life micro-vlog",
+        "question-box AMA night",
+        "\"only you guys see this\" home-routine tease"
+      ]
+    },
+    {
+      "code": "A2",
+      "family": "Aesthetic-led",
+      "name": "Glamour / bombshell",
+      "one_liner": "polished, editorial, aspirational — the feed is the magazine cover, CF is the outtakes",
+      "fit": "Low–Medium",
+      "fit_note": "needs shoot budget and a model look",
+      "voice": "confident, short captions, aspirational",
+      "visual": "studio/luxury settings, pro lighting, lingerie/designer styling, glossy grid",
+      "audience": "buyers of production value",
+      "hybrids": "pin-up, fitness, country (\"yeehaw glam\")",
+      "cf_angles": [
+        "unretouched shoot outtakes \"CF only\"",
+        "getting-ready glam sequence",
+        "hotel-room outfit reveal",
+        "\"which look tonight\" poll",
+        "behind-the-set chaos clips"
+      ]
+    },
+    {
+      "code": "A3",
+      "family": "Aesthetic-led",
+      "name": "Alt / goth / tattooed (punk, emo, grunge sub-variants)",
+      "one_liner": "dark, modded, visually unmistakable — every frame reads as goth without a caption",
+      "fit": "High if it's real",
+      "fit_note": "the niche punishes tourists; mods are unfakeable authenticity",
+      "voice": "deadpan or playful-dark, 🖤",
+      "visual": "black/deep-red/purple, tattoos foregrounded, corsetry, platforms, lace/latex",
+      "audience": "alt-identified men and women; low competition, high search volume",
+      "hybrids": "cosplay/e-girl, MILF (\"goth mom\"), femdom-coded",
+      "cf_angles": [
+        "outfit/corset build-up piece by piece",
+        "fresh-ink close-up reveal",
+        "makeup transformation timelapse",
+        "\"band tee or latex tonight\" poll",
+        "chaotic 3am energy dumps"
+      ]
+    },
+    {
+      "code": "A4",
+      "family": "Aesthetic-led",
+      "name": "Bimbo / Barbie hyper-feminine",
+      "one_liner": "self-aware maximal femininity — pink, plastic, proud",
+      "fit": "Medium",
+      "fit_note": "persona must be total; cosmetic investment is real; instantly legible brand",
+      "voice": "bubbly, 💕🎀💋, \"princess treatment\" framing",
+      "visual": "pink-dominant, big blonde hair, gloss, doll/princess props",
+      "audience": "bimbofication-adjacent plus mainstream glamour buyers",
+      "hybrids": "glamour, musician, bratty-domme",
+      "cf_angles": [
+        "pink haul try-on",
+        "wishlist \"spoil me\" tease",
+        "exaggerated GRWM",
+        "\"rate me 1–10\" mirror check",
+        "princess-treatment storytime"
+      ]
+    },
+    {
+      "code": "A5",
+      "family": "Aesthetic-led",
+      "name": "Pin-up / retro / vintage",
+      "one_liner": "1940s–60s glamour codes — red lip, victory rolls, gingham — \"tasteful\" is the sell",
+      "fit": "Medium",
+      "fit_note": "styling skill required; very low competition; ages well",
+      "voice": "playful-classy",
+      "visual": "warm/sepia grading, period wardrobe, burlesque props, classic cars",
+      "audience": "older, higher-spend collectors; burlesque/cosplay fandom overlap",
+      "hybrids": "glamour, cosplay, MILF",
+      "cf_angles": [
+        "victory-roll GRWM",
+        "vintage-lingerie detail pans",
+        "polaroid-style still drops",
+        "\"name this set\" question box",
+        "retro homemaking interlude (baking in the look)"
+      ]
+    },
+    {
+      "code": "B1",
+      "family": "Persona / role-led",
+      "name": "Girlfriend experience (GFE)",
+      "one_liner": "\"your online girlfriend\" — the product is the relationship, not the photo. **This is the default CF operating model for every niche.**",
+      "fit": "High (skill-gated)",
+      "fit_note": "zero production cost; the constraint is DM stamina and emotional consistency",
+      "voice": "second person, affectionate, continuous",
+      "visual": "deliberately intimate and low-production — the grid looks like a partner's camera roll",
+      "audience": "men paying for attention and continuity; retention-driven",
+      "hybrids": "layers onto everything",
+      "cf_angles": [
+        "\"good morning baby\" direct address",
+        "voice-note replies to DMs",
+        "mid-day \"thinking of you\" selfie",
+        "goodnight check-in",
+        "\"if you were here right now…\" POV",
+        "reply-bait (\"first 10 DMs get…\")"
+      ]
+    },
+    {
+      "code": "B2",
+      "family": "Persona / role-led",
+      "name": "Profession persona (\"uniform niche\")",
+      "one_liner": "a real (or plausibly real) job as the hook — the secret-double-life narrative is the marketing",
+      "fit": "Medium",
+      "fit_note": "needs a credible job story; real employment risk",
+      "voice": "double-entendre on the job",
+      "visual": "uniform/workwear props, hotel layovers, office settings",
+      "audience": "fantasy-of-access buyers; high press virality",
+      "hybrids": "GND, MILF, college-coded",
+      "cf_angles": [
+        "\"just off shift\" half-out-of-uniform tease",
+        "\"guess what happened at work\" storytime",
+        "layover hotel check-in",
+        "countdown sticker \"uniform comes off at 8\"",
+        "locker-room-mirror fit check"
+      ]
+    },
+    {
+      "code": "B3",
+      "family": "Persona / role-led",
+      "name": "Femdom / findom / kink-coded",
+      "one_liner": "power dynamic as brand — \"Goddess\", tribute language — explicit layer kept off IG. Instagram is this niche's *weakest* channel (it lives on X/Telegram); CF works only for already-committed subs",
+      "fit": "Low on Instagram",
+      "fit_note": "",
+      "voice": "imperative, teasing contempt, 👑💸",
+      "visual": "latex/leather, black-red-purple, throne/crown motifs — or bratty e-girl variant",
+      "audience": "small counts, highest per-fan spend",
+      "hybrids": "streamer, goth, bimbo-brat",
+      "cf_angles": [
+        "task-of-the-day post",
+        "tribute-leaderboard shoutouts",
+        "timed \"you may look\" drops",
+        "boot/latex detail close-ups",
+        "degradation Q&A box"
+      ]
+    },
+    {
+      "code": "B4",
+      "family": "Persona / role-led",
+      "name": "Comedy / personality-first",
+      "one_liner": "funny first, hot second — the paid page is an extension of a comedic persona",
+      "fit": "Medium",
+      "fit_note": "requires a genuine comedic voice; un-copyable once it lands",
+      "voice": "the voice IS the brand; no aesthetic uniformity needed",
+      "visual": "chaotic selfies, stage clips, memes",
+      "audience": "existing comedy fans, mixed gender",
+      "hybrids": "GFE (\"funny gf\"), MILF, musician",
+      "cf_angles": [
+        "unhinged hot-take of the day",
+        "thirst-trap-then-punchline bait & switch",
+        "crowd-work question box",
+        "multi-part storytime cliffhangers",
+        "meme commentary in her voice"
+      ]
+    },
+    {
+      "code": "C1",
+      "family": "Lifestyle-led",
+      "name": "Southern / country / cowgirl",
+      "one_liner": "boots, trucks, barns and rodeo — American rural identity as the brand",
+      "fit": "High if authentic",
+      "fit_note": "location and lifestyle can't be faked; very strong conversion",
+      "voice": "🤠🥵, down-home, \"TOP %\" swagger",
+      "visual": "denim, boots, hats, sundresses; golden-hour fields, tailgates, rodeo",
+      "audience": "US male 25–50",
+      "hybrids": "fitness, MILF (\"country mama\"), glam, trad-wife flavor",
+      "cf_angles": [
+        "golden-hour truck-bed clip",
+        "boots-and-sundress GRWM",
+        "ranch chores in cutoffs",
+        "\"yeehaw or nah\" outfit poll",
+        "bonfire-night story chain"
+      ]
+    },
+    {
+      "code": "C2",
+      "family": "Lifestyle-led",
+      "name": "Stoner / 420",
+      "one_liner": "cannabis lifestyle — glass, smoke, munchies — with the paid page behind the link",
+      "fit": "Medium",
+      "fit_note": "platform-restricted content; backup account mandatory; loyal community",
+      "voice": "chill, deadpan, 🍃💨",
+      "visual": "green/haze palette, glass and trays, tie-dye/thrift, lo-fi bedroom light",
+      "audience": "cannabis community, both genders",
+      "hybrids": "GND, alt, \"stoner brat\"",
+      "cf_angles": [
+        "wake-and-bake check-in",
+        "new-glass show-and-tell",
+        "smoke-trick clip",
+        "munchies-run poll",
+        "real-time \"sesh with me\" story chain"
+      ]
+    },
+    {
+      "code": "C3",
+      "family": "Lifestyle-led",
+      "name": "Outdoorsy / nature / van-life",
+      "one_liner": "landscapes, camping, yoga on rocks — free-spirit sensuality",
+      "fit": "Medium",
+      "fit_note": "needs location access; very low competition; doubles as a shoot portfolio",
+      "voice": "earthy, unhurried, \"freedom\" framing",
+      "visual": "earth tones, golden hour, desert/forest, film-look grading",
+      "audience": "art-nude and nature-photo buyers; older, higher spend",
+      "hybrids": "wellness/yoga, pin-up, beach",
+      "cf_angles": [
+        "trailhead-sunrise check-in",
+        "campsite fit check",
+        "skinny-dip *implication* tease",
+        "\"where should I shoot next\" poll",
+        "tent/van goodnight story"
+      ]
+    },
+    {
+      "code": "C4",
+      "family": "Lifestyle-led",
+      "name": "Beach / surf / bikini",
+      "one_liner": "endless-summer bikini content where the \"VIP\" is the point",
+      "fit": "Medium",
+      "fit_note": "easy to produce, hard to differentiate; pair with a trait or persona",
+      "voice": "sunny, 😜💋👙",
+      "visual": "sun-bleached warmth, sand/boat/pool, micro-bikinis, wet hair",
+      "audience": "broad male; crowded with non-adult bikini influencers",
+      "hybrids": "redhead/trait, cosplay, fitness",
+      "cf_angles": [
+        "bikini try-on haul",
+        "tan-line reveal tease",
+        "beach-day POV",
+        "\"which bikini\" poll",
+        "sunset balcony outfit drop"
+      ]
+    },
+    {
+      "code": "D1",
+      "family": "Body / trait-led",
+      "name": "MILF / mature (35+)",
+      "one_liner": "age and motherhood ARE the brand — confident, unapologetic",
+      "fit": "High for 35+",
+      "fit_note": "authenticity is the moat; low competition, premium pricing",
+      "voice": "direct, warm, zero apology",
+      "visual": "polished consistent grid, home and everyday settings, presence over filters",
+      "audience": "men 25–60",
+      "hybrids": "comedy, country (\"country mama\"), goth (\"goth mom\"), muscle-mommy fitness",
+      "cf_angles": [
+        "morning-coffee robe selfie",
+        "\"kids are at school…\" tease",
+        "errands-but-make-it-hot",
+        "wine-night Q&A",
+        "direct-address confidence pieces"
+      ]
+    },
+    {
+      "code": "D2",
+      "family": "Body / trait-led",
+      "name": "Trait-as-brand (redhead/ginger; height; freckles)",
+      "one_liner": "one physical trait, named in the handle, repeated everywhere",
+      "fit": "High as a *modifier*, low as a whole identity",
+      "fit_note": "cheap durable differentiation if the trait is real",
+      "voice": "inherits the host niche; palette chosen to flatter the trait; \"all-natural / certified\" claims",
+      "visual": "inherits the host niche; palette chosen to flatter the trait; \"all-natural / certified\" claims",
+      "audience": "search-driven trait devotees (redhead is the best-evidenced)",
+      "hybrids": "apply to any host niche",
+      "cf_angles": [
+        "trait-forward close-ups (hair/freckles/height comparisons)",
+        "\"certified ginger\" running jokes",
+        "trait-styling before/after",
+        "trait-based polls (\"up or down today\")"
+      ]
+    },
+    {
+      "code": "D3",
+      "family": "Body / trait-led",
+      "name": "Fitness-forward",
+      "one_liner": "gym/athlete content **with** an adult funnel — visually identical to fitness influencers, structurally different",
+      "fit": "Medium",
+      "fit_note": "needs a genuine physique and training habit; usually runs a clean main + spicy alt",
+      "voice": "training talk that slides into tease",
+      "visual": "gym mirror, physique checks, meal prep, competition/bikini content",
+      "audience": "physique buyers converting from fitness following",
+      "hybrids": "country, muscle-mommy MILF, male gym-bro, gymnast/athlete persona",
+      "cf_angles": [
+        "gym-fit check",
+        "sweaty post-workout selfie",
+        "PR clip → \"recovery\" tease",
+        "meal-prep interlude",
+        "alt-account \"exclusive\" pointer drops"
+      ]
+    },
+    {
+      "code": "E1",
+      "family": "Demographic-led",
+      "name": "Trans creators",
+      "one_liner": "identity stated up front; the social profile is the authenticity layer fans check before subscribing",
+      "fit": "Medium–High",
+      "fit_note": "lower competition, highest LTV in agency data; higher moderation/harassment load",
+      "voice": "direct, community-warm",
+      "visual": "inherits a host niche (fitness, cosplay/gamer, GND); face-forward consistency matters more than for cis niches",
+      "hybrids": "fitness, cosplay/gamer, profession persona",
+      "cf_angles": [
+        "daily authenticity check-ins",
+        "GRWM transformation pieces",
+        "gaming/cosplay crossover",
+        "\"ask me anything about me\" box",
+        "hype-community shoutouts"
+      ]
+    },
+    {
+      "code": "E2",
+      "family": "Demographic-led",
+      "name": "Male creators (gym-bro, twink, himbo, performer)",
+      "one_liner": "male adult brand carried by physique, a viral persona, or an explicit industry affiliation",
+      "fit": "Low–Medium",
+      "fit_note": "smaller market, predominantly gay-male audience; needs a standout body or hook",
+      "voice": "puns and in-jokes; confident POV",
+      "visual": "shirtless gym (bro), slim editorial (twink), viral-clip energy (himbo), agency polish (performer)",
+      "hybrids": "fitness, streamer, couples",
+      "cf_angles": [
+        "shirtless morning routine",
+        "pump check after training",
+        "running in-joke props",
+        "travel/casting storytime",
+        "audience-targeted POV direct address"
+      ]
+    },
+    {
+      "code": "F1",
+      "family": "Platform-crossover",
+      "name": "E-girl / cosplay / gamer",
+      "one_liner": "anime, gaming and costume craft as identity; conventions as proof-of-work",
+      "fit": "Medium",
+      "fit_note": "craft and cost are real; the community pre-exists and rewards skill",
+      "voice": "\":3\", waifu-speak, community in-jokes",
+      "visual": "pastel/neon or dark-alt, wigs and builds, RGB rooms, SFX makeup",
+      "audience": "gaming/anime fandom; e-girl × cosplay is the highest-leverage stack",
+      "hybrids": "alt/goth, streamer, trans, \"your anime gf\" GFE",
+      "cf_angles": [
+        "WIP costume build",
+        "character try-on transition",
+        "con-prep chaos",
+        "\"which character next\" poll",
+        "in-character voice clips"
+      ]
+    },
+    {
+      "code": "F2",
+      "family": "Platform-crossover",
+      "name": "Streamer crossover",
+      "one_liner": "the only niche where the audience exists before the paid page — CF is the \"chat can't see this\" tier",
+      "fit": "Low unless already streaming",
+      "fit_note": "",
+      "voice": "community-insider (\"chat\", emote-speak)",
+      "visual": "stream-setup aesthetics carried into daily life",
+      "hybrids": "e-girl/cosplay, findom, musician",
+      "cf_angles": [
+        "off-stream decompress selfie",
+        "\"chat can't see this\" framing",
+        "RGB-room night check-in",
+        "reacting to her own clips",
+        "post-stream adrenaline dumps"
+      ]
+    },
+    {
+      "code": "F3",
+      "family": "Platform-crossover",
+      "name": "Musician / DJ / artist crossover",
+      "one_liner": "a real music identity with the paid page as \"exclusive access\" — rarely works bottom-up",
+      "fit": "Low",
+      "fit_note": "requires an actual music career",
+      "voice": "artist-first, scene-coded",
+      "visual": "stage/festival/studio, rave styling",
+      "hybrids": "bimbo/Barbie, streamer, comedy",
+      "cf_angles": [
+        "studio-session sneak peek",
+        "unreleased-track snippet \"CF ears only\"",
+        "backstage fit check",
+        "\"pick the cover art\" poll",
+        "afterparty story chain"
+      ]
+    }
+  ],
+  "provisional": [
+    {
+      "concept": "College / student",
+      "treat_as": "GND/GFE flavor (dorm/campus settings)",
+      "cf_note": "campus B-roll, study-break teases"
+    },
+    {
+      "concept": "Trad-wife / homemaker / cottagecore",
+      "treat_as": "Country (C1) flavor",
+      "cf_note": "baking/homemaking interludes with tension"
+    },
+    {
+      "concept": "Nerdy / bookish",
+      "treat_as": "F1 / A1 flavor",
+      "cf_note": "reading-in-glasses check-ins"
+    },
+    {
+      "concept": "Y2K; \"bratty\"",
+      "treat_as": "palette (A4/A3) and *tone axis* respectively",
+      "cf_note": "brat-tone captions on any lane"
+    },
+    {
+      "concept": "Luxury / \"spoil me\"",
+      "treat_as": "modifier on any niche",
+      "cf_note": "wishlist teases, unboxings"
+    },
+    {
+      "concept": "Wellness / yoga",
+      "treat_as": "C3 flavor",
+      "cf_note": "flow-with-me clips, \"conscious sensuality\" tone"
+    },
+    {
+      "concept": "Curvy / petite / body descriptors",
+      "treat_as": "D2-style modifiers",
+      "cf_note": "trait-forward framing in any lane"
+    },
+    {
+      "concept": "Couples",
+      "treat_as": "own lane, unstable on IG",
+      "cf_note": "\"caught us\" candids, his-POV stories"
+    },
+    {
+      "concept": "Feet / fetish-coded",
+      "treat_as": "sub-tag inside other niches",
+      "cf_note": "coded close-ups (\"new pedi\")"
+    }
+  ]
+}
