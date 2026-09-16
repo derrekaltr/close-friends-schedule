@@ -1,0 +1,194 @@
+{
+  "creator": "raven.moth",
+  "primary": "A3",
+  "hybrids": [
+    "F1"
+  ],
+  "seed": 11,
+  "week": [
+    {
+      "day": "Monday",
+      "stories": [
+        {
+          "format": "F02",
+          "time": "morning",
+          "idea": "lyric of the day on the mirror in eyeliner"
+        },
+        {
+          "format": "F02",
+          "time": "morning",
+          "idea": "sticky note on the laptop with today's mood"
+        },
+        {
+          "format": "F03",
+          "time": "midday",
+          "idea": "screenshot joke that matches her humor",
+          "reply_mechanic": "poll (2 options)"
+        },
+        {
+          "format": "F07",
+          "time": "evening",
+          "idea": "fresh-ink close-up reveal"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "stories": [
+        {
+          "format": "F04",
+          "time": "morning",
+          "idea": "the street on her walk, no caption",
+          "reply_mechanic": "question box"
+        },
+        {
+          "format": "F04",
+          "time": "morning",
+          "idea": "venue alley before the show"
+        },
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "car passenger-seat clip on the way somewhere"
+        },
+        {
+          "format": "F07",
+          "time": "evening",
+          "idea": "outfit/corset build-up piece by piece"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "stories": [
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "grocery haul on the counter"
+        },
+        {
+          "format": "F03",
+          "time": "midday",
+          "idea": "'me waiting for you to text back' meme"
+        },
+        {
+          "format": "F03",
+          "time": "midday",
+          "idea": "relationship meme in her voice",
+          "reply_mechanic": "emoji slider"
+        },
+        {
+          "format": "F05",
+          "time": "afternoon",
+          "idea": "the wig head has opinions",
+          "reply_mechanic": "\"DM me a word\" bait"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "stories": [
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "con-bag packing chaos"
+        },
+        {
+          "format": "F04",
+          "time": "morning",
+          "idea": "golden-hour view from wherever she is"
+        },
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "coffee being poured, no face",
+          "reply_mechanic": "this-or-that poll"
+        },
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "painting nails black, close-up"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "stories": [
+        {
+          "format": "F04",
+          "time": "morning",
+          "idea": "candles + vinyl corner of the room"
+        },
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "wig prep on the desk"
+        },
+        {
+          "format": "F07",
+          "time": "evening",
+          "idea": "makeup transformation timelapse"
+        },
+        {
+          "format": "F01",
+          "time": "evening",
+          "idea": "late-night snack being made",
+          "reply_mechanic": "poll (2 options)"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "stories": [
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "getting ready — jewelry only"
+        },
+        {
+          "format": "F02",
+          "time": "morning",
+          "idea": "whiteboard confession of the day"
+        },
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "lacing the platforms",
+          "reply_mechanic": "\"DM me a word\" bait"
+        },
+        {
+          "format": "F07",
+          "time": "evening",
+          "idea": "WIP costume build",
+          "reply_mechanic": "question box"
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "stories": [
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "painting nails black, close-up"
+        },
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "lacing the platforms"
+        },
+        {
+          "format": "F06",
+          "time": "midday",
+          "idea": "the setup before anyone sees the result",
+          "reply_mechanic": "emoji slider"
+        },
+        {
+          "format": "F03",
+          "time": "midday",
+          "idea": "screenshot joke that matches her humor"
+        }
+      ]
+    }
+  ]
+}

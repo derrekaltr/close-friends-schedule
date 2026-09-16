@@ -12,3 +12,4 @@ Conditioning data for Close Friends content generation, ported (playbook-only) f
 | [`mockups/`](mockups/) | Client-facing visual examples: an original 1080×1920 story mockup per format + a contact sheet (`build_mockups.py` regenerates) |
 
 Source research (verified example handles, the Instagram tagging rules, the classifier and prospect batches) intentionally stays in `modelsniche` — this repo is public and that material names real people.
+| [`../schedule/generate.py`](../schedule/generate.py) | 7-day schedule generator: creator + niche + formats → md/json/png weekly board (`--niche C1 --hybrid A1,D2 --png`) |

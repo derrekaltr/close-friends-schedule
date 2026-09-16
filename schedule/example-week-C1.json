@@ -1,0 +1,195 @@
+{
+  "creator": "daisy.rae",
+  "primary": "C1",
+  "hybrids": [
+    "A1",
+    "D2"
+  ],
+  "seed": 7,
+  "week": [
+    {
+      "day": "Monday",
+      "stories": [
+        {
+          "format": "F04",
+          "time": "morning",
+          "idea": "her street in the rain"
+        },
+        {
+          "format": "F02",
+          "time": "morning",
+          "idea": "whiteboard confession of the day"
+        },
+        {
+          "format": "F03",
+          "time": "midday",
+          "idea": "screenshot joke that matches her humor",
+          "reply_mechanic": "poll (2 options)"
+        },
+        {
+          "format": "F07",
+          "time": "evening",
+          "idea": "boots-and-sundress GRWM"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "stories": [
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "feeding the horses, gloves on",
+          "reply_mechanic": "question box"
+        },
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "coffee being poured, no face"
+        },
+        {
+          "format": "F03",
+          "time": "midday",
+          "idea": "'me waiting for you to text back' meme"
+        },
+        {
+          "format": "F07",
+          "time": "evening",
+          "idea": "\"help me pick\" outfit poll"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "stories": [
+        {
+          "format": "F04",
+          "time": "morning",
+          "idea": "golden-hour view from wherever she is"
+        },
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "boots by the door, mud and all"
+        },
+        {
+          "format": "F04",
+          "time": "morning",
+          "idea": "the street on her walk, no caption",
+          "reply_mechanic": "emoji slider"
+        },
+        {
+          "format": "F05",
+          "time": "afternoon",
+          "idea": "the named prop shows up somewhere it shouldn't",
+          "reply_mechanic": "\"DM me a word\" bait"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "stories": [
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "grocery haul on the counter"
+        },
+        {
+          "format": "F03",
+          "time": "midday",
+          "idea": "relationship meme in her voice",
+          "reply_mechanic": "this-or-that poll"
+        },
+        {
+          "format": "F06",
+          "time": "midday",
+          "idea": "editing on the couch, screen glow only"
+        },
+        {
+          "format": "F01",
+          "time": "evening",
+          "idea": "night routine, lights low"
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "stories": [
+        {
+          "format": "F01",
+          "time": "evening",
+          "idea": "late-night snack being made"
+        },
+        {
+          "format": "F02",
+          "time": "morning",
+          "idea": "mirror-marker note to the viewers",
+          "reply_mechanic": "poll (2 options)"
+        },
+        {
+          "format": "F03",
+          "time": "midday",
+          "idea": "'certified' running joke meme"
+        },
+        {
+          "format": "F07",
+          "time": "evening",
+          "idea": "trait-forward close-ups (hair/freckles/height comparisons)"
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "stories": [
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "cast-iron breakfast on the stove"
+        },
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "car passenger-seat clip on the way somewhere"
+        },
+        {
+          "format": "F02",
+          "time": "morning",
+          "idea": "sticky note on the laptop with today's mood",
+          "reply_mechanic": "\"DM me a word\" bait"
+        },
+        {
+          "format": "F04",
+          "time": "evening",
+          "idea": "neighborhood at dusk",
+          "reply_mechanic": "question box"
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "stories": [
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "getting ready — jewelry only",
+          "reply_mechanic": "emoji slider"
+        },
+        {
+          "format": "F01",
+          "time": "morning",
+          "idea": "bedhead just-woke-up selfie"
+        },
+        {
+          "format": "F07",
+          "time": "evening",
+          "idea": "bonfire-night story chain"
+        },
+        {
+          "format": "F01",
+          "time": "evening",
+          "idea": "cooking dinner for one, hands only"
+        }
+      ]
+    }
+  ]
+}
