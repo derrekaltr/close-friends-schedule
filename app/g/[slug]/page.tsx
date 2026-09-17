@@ -39,9 +39,10 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
 
       <section className="rules">
         <p>
-          <strong>This week&apos;s energy:</strong> your close friends story is the group chat, not the billboard.
-          Real meals, real errands, real opinions — lower polish than the grid, more personality. And the standing
-          rule: if anyone asks about working together or how you&apos;re growing, be straight-up that you work with a
+          <strong>This week&apos;s energy:</strong> close friends is the group chat, not the feed. Nothing here is
+          &quot;content&quot; — it&apos;s just your day: what you ate, what you bought, what you&apos;re watching. If a
+          post feels like it&apos;s performing for an audience, save it for the main story. And the standing rule: if
+          anyone asks about working together or how you&apos;re growing, be straight-up that you work with a
           team/agency. Real content never needs a cover story.
         </p>
       </section>
@@ -49,8 +50,8 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
       <section>
         <h2><span className="no">01</span> Story schedule</h2>
         <p className="section-note">
-          Most of these are just a photo + a sticker. Captions are starting points — retype them how you&apos;d
-          actually say it, or don&apos;t use them at all. Your words &gt; our words, always.
+          Each card shows roughly what the post looks like on your story. Most are one photo + a sticker, done in
+          10 seconds. Captions are starting points — retype them how you&apos;d actually say it, or skip them.
         </p>
         <div className="week">
           {plan.days.map((d, i) => (
@@ -65,13 +66,21 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
               <ol className="slots">
                 {d.items.map((s: any) => (
                   <li key={s.id}>
-                    <span className="slot-time">{s.time}</span>
-                    <div>
+                    <div className="mock" aria-hidden="true">
+                      <div className="mock-bar"><i /><i /><i /></div>
+                      <span className="mock-emoji">{s.emoji ?? "📷"}</span>
+                      <div className="mock-bottom">
+                        {s.caption && <span className="mock-cap">{s.caption}</span>}
+                        {STICKER_LABELS[s.sticker] && (
+                          <span className="mock-pill">{s.sticker_text ?? STICKER_LABELS[s.sticker]}</span>
+                        )}
+                      </div>
+                    </div>
+                    <div className="slot-info">
+                      <span className="slot-time">{s.time}</span>
                       <strong>{s.fresh && <em className="fresh">new this week </em>}{s.title}</strong>
                       <p>{s.film ?? s.prompt}</p>
-                      {s.caption && <div className="cap">{s.caption}</div>}
-                      <span className="tag fmt">{s.format ?? "photo"}</span>{" "}
-                      {STICKER_LABELS[s.sticker] && <span className="tag">{STICKER_LABELS[s.sticker]}</span>}
+                      <span className="tag fmt">{s.format ?? "photo"}</span>
                     </div>
                   </li>
                 ))}

@@ -1,11 +1,46 @@
 {
   "_source": "Week 38 refresh — seeded from Sep 2026 IG changelogs (SocialBee, NapoleonCat, HeyOrca)",
   "stories": [
-    { "id": "w38-01", "title": "60-second catch-up", "film": "Stories don't split at 15s anymore — one unedited 60-second front-camera catch-up about your week, like a voice note. Comments on.", "caption": "weekly debrief. this stays between us obviously", "format": "video", "pillar": "interactive", "sticker": "story-comments", "time": "evening", "niches": ["*"] },
-    { "id": "w38-02", "title": "New sticker gesture", "film": "Any photo from today — use the new swipe-up-to-add-sticker gesture mid-post and mention it.", "caption": "did you know you could do this?? took me 3 tries", "format": "photo", "pillar": "interactive", "sticker": "none", "time": "midday", "niches": ["*"] }
+    {
+      "id": "w38-01",
+      "title": "60-second catch-up",
+      "film": "Stories don't split at 15s anymore — one unedited 60-second front-camera catch-up about your week, like a voice note. Comments on.",
+      "caption": "weekly debrief",
+      "format": "video",
+      "pillar": "interactive",
+      "sticker": "story-comments",
+      "time": "evening",
+      "niches": [
+        "*"
+      ],
+      "emoji": "🤳",
+      "sticker_text": "💬 comments on"
+    },
+    {
+      "id": "w38-02",
+      "title": "New sticker gesture",
+      "film": "Any photo from today — use the new swipe-up-to-add-sticker gesture mid-post and mention it.",
+      "caption": "ok this new sticker thing is cool",
+      "format": "photo",
+      "pillar": "interactive",
+      "sticker": "none",
+      "time": "midday",
+      "niches": [
+        "*"
+      ],
+      "emoji": "😅"
+    }
   ],
   "reels": [
-    { "id": "w38-r1", "hook": "September so far", "concept": "Mid-month photo dump reel on a cozy autumn audio — first fall content of the year lands hard the week people start feeling it. Schedule as a Trial Reel.", "feature": "trial-reel-scheduled", "niches": ["*"] }
+    {
+      "id": "w38-r1",
+      "hook": "September so far",
+      "concept": "Mid-month photo dump reel on a cozy autumn audio — first fall content of the year lands hard the week people start feeling it. Schedule as a Trial Reel.",
+      "feature": "trial-reel-scheduled",
+      "niches": [
+        "*"
+      ]
+    }
   ],
   "features_to_try": []
 }

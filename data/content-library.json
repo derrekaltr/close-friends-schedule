@@ -1,213 +1,236 @@
 {
-  "_notes": "Close-friends story templates. 'film' = what she actually captures from her real day. 'caption' = ready-to-post text in her voice — she should retype it the way she'd actually say it, not paste it verbatim. All content is her real life; captions are starting points, not scripts.",
+  "_notes": "Close-friends story templates. Register: group chat, not audience — short, flat, unpolished captions. film = what she captures from her real day; caption = starting point she retypes in her own words; emoji + sticker_text drive the visual mockup on her page. If a post feels like it is performing, it belongs on the main story, not close friends.",
   "stories": [
     {
       "id": "s-morning-01",
       "title": "First 10 minutes awake",
       "film": "One clip of whatever actually happens first — alarm screen, stretching, opening blinds. No cleanup.",
-      "caption": "good morning to literally no one but you guys",
+      "caption": "up. barely",
       "pillar": "morning-routine",
       "sticker": "none",
       "time": "morning",
       "niches": [
         "*"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🛏️"
     },
     {
       "id": "s-morning-02",
       "title": "Breakfast verdict",
       "film": "Photo of whatever breakfast actually is today.",
-      "caption": "chef? or crime scene? be honest",
+      "caption": "made breakfast for once",
       "pillar": "morning-routine",
       "sticker": "poll",
       "time": "morning",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🍳",
+      "sticker_text": "looks good · order takeout"
     },
     {
       "id": "s-morning-03",
       "title": "Today's list",
       "film": "Paper or notes-app list of 3 real errands.",
-      "caption": "if i finish all 3 i'm buying myself something. what's on yours",
+      "caption": "today’s list. wish me luck",
       "pillar": "morning-routine",
       "sticker": "question",
       "time": "morning",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "📝",
+      "sticker_text": "what’s on yours"
     },
     {
       "id": "s-coffee-01",
       "title": "Coffee order reveal",
       "film": "Cup in hand, order hidden behind the reveal sticker.",
-      "caption": "you don't know me until you can guess this",
+      "caption": "guess my order",
       "pillar": "food-coffee",
       "sticker": "reveal",
       "time": "morning",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "☕",
+      "sticker_text": "dm to see 👀"
     },
     {
       "id": "s-coffee-02",
       "title": "Café find",
       "film": "Quick pan of the café corner you're sitting in.",
-      "caption": "found my new personality trait (it's this café)",
+      "caption": "new coffee spot",
       "pillar": "food-coffee",
       "sticker": "slider",
       "time": "midday",
       "niches": [
         "*"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🥐",
+      "sticker_text": "☕ rate it"
     },
     {
       "id": "s-food-01",
       "title": "Girl dinner",
       "film": "Unstyled photo of what you're actually eating.",
-      "caption": "girl dinner. no notes. no shame.",
+      "caption": "dinner lol",
       "pillar": "food-coffee",
       "sticker": "none",
       "time": "evening",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🍝"
     },
     {
       "id": "s-food-02",
       "title": "Grocery run recap",
       "film": "60-second story walking through 5 things from the bags.",
-      "caption": "took you grocery shopping bc apparently we do everything together now",
+      "caption": "grocery run",
       "pillar": "food-coffee",
       "sticker": "none",
       "time": "midday",
       "niches": [
         "*"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🛒"
     },
     {
       "id": "s-maint-01",
       "title": "Nail chair check-in",
       "film": "Hand on the nail table mid-set, color visible.",
-      "caption": "committing to this color for 3 weeks. talk me off the ledge or hype me up",
+      "caption": "nail day 💅",
       "pillar": "girly-maintenance",
       "sticker": "poll",
       "time": "midday",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "💅",
+      "sticker_text": "yay · nay"
     },
     {
       "id": "s-maint-02",
       "title": "Hair day, two parts",
       "film": "Salon chair clip now; after-clip in the car hours later.",
-      "caption": "part 1: praying. part 2 in a few hours",
+      "caption": "hair day. pray for me",
       "pillar": "girly-maintenance",
       "sticker": "none",
       "time": "midday",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "💇‍♀️"
     },
     {
       "id": "s-maint-03",
       "title": "Tonight's lineup",
       "film": "Skincare products lined up on the counter, frames sticker.",
-      "caption": "the sunday night starting five",
+      "caption": "tonight’s lineup",
       "pillar": "girly-maintenance",
       "sticker": "frames",
       "time": "night",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🧴"
     },
     {
       "id": "s-home-01",
       "title": "Current situation",
       "film": "The spot you're actually in — blanket, laptop, drink, tv.",
-      "caption": "this is where i live now. show's on its 4th episode. send snacks",
+      "caption": "not moving from this spot",
       "pillar": "home-cozy",
       "sticker": "none",
       "time": "evening",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🛋️"
     },
     {
       "id": "s-home-02",
       "title": "Candle census",
       "film": "Close-up of the lit candle.",
-      "caption": "need your best candle scent rec, this is important research",
+      "caption": "need candle recs",
       "pillar": "home-cozy",
       "sticker": "question",
       "time": "evening",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🕯️",
+      "sticker_text": "drop em"
     },
     {
       "id": "s-home-03",
       "title": "Sunday reset arc",
       "film": "Three clips: laundry pile → mid-chaos → made bed.",
-      "caption": "character development",
+      "caption": "reset day",
       "pillar": "home-cozy",
       "sticker": "none",
       "time": "midday",
       "niches": [
         "*"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🧺"
     },
     {
       "id": "s-out-01",
       "title": "Passenger seat",
       "film": "Golden light through the car window, music audible.",
-      "caption": "no idea where we're going and honestly that's the best part",
+      "caption": "little drive",
       "pillar": "out-and-about",
       "sticker": "add-yours-music",
       "time": "midday",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🚗"
     },
     {
       "id": "s-out-02",
       "title": "Errand fit",
       "film": "Mirror pic before leaving the house.",
-      "caption": "dressed up to buy paper towels. anyway — first stop?",
+      "caption": "quick target run",
       "pillar": "out-and-about",
       "sticker": "poll",
       "time": "midday",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🪞",
+      "sticker_text": "target · tj maxx"
     },
     {
       "id": "s-out-03",
       "title": "Found this for you",
       "film": "One weird/cute item spotted while shopping, cutout-stickered.",
-      "caption": "saw this and thought of exactly you. yes you.",
+      "caption": "look what i found lol",
       "pillar": "out-and-about",
       "sticker": "cutout",
       "time": "midday",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🧸"
     },
     {
       "id": "s-fit-01",
@@ -220,130 +243,144 @@
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🪞"
     },
     {
       "id": "s-fit-02",
       "title": "You pick tonight",
       "film": "Two outfit options side by side.",
-      "caption": "i physically cannot decide, so it's your problem now",
+      "caption": "which one",
       "pillar": "fit-check",
       "sticker": "poll",
       "time": "evening",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "👗",
+      "sticker_text": "left · right"
     },
     {
       "id": "s-social-01",
       "title": "Morning-after dump",
       "film": "3 imperfect flash photos from last night, posted the next morning.",
-      "caption": "quality: terrible. night: perfect.",
+      "caption": "last night 🤍",
       "pillar": "friends-social",
       "sticker": "none",
       "time": "morning",
       "niches": [
         "*"
       ],
-      "format": "photo dump"
+      "format": "photo dump",
+      "emoji": "📸"
     },
     {
       "id": "s-social-02",
       "title": "What we ordered",
       "film": "Overhead table shot at dinner with friends.",
-      "caption": "we ordered like we were never going to eat again",
+      "caption": "we over-ordered",
       "pillar": "friends-social",
       "sticker": "none",
       "time": "evening",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🍕"
     },
     {
       "id": "s-int-01",
       "title": "Decisions box",
       "film": "Plain background or selfie with the question box.",
-      "caption": "decisions i need help making today. serious answers only (or not)",
+      "caption": "bored. ask me something",
       "pillar": "interactive",
       "sticker": "question",
       "time": "evening",
       "niches": [
         "*"
       ],
-      "format": "text"
+      "format": "text",
+      "emoji": "💬",
+      "sticker_text": "anything"
     },
     {
       "id": "s-int-02",
       "title": "Settle this",
       "film": "Poll on a real tiny debate from your day; results follow-up later.",
-      "caption": "we've been arguing about this for 20 minutes. end it.",
+      "caption": "ok settle this",
       "pillar": "interactive",
       "sticker": "poll",
       "time": "evening",
       "niches": [
         "*"
       ],
-      "format": "text"
+      "format": "text",
+      "emoji": "🤔",
+      "sticker_text": "me · her"
     },
     {
       "id": "s-int-03",
       "title": "Add yours chain",
       "film": "Start an add-yours: last photo of your pet / current phone background.",
-      "caption": "show me yours. no skipping.",
+      "caption": "your turn",
       "pillar": "interactive",
       "sticker": "add-yours",
       "time": "evening",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "📱",
+      "sticker_text": "add yours"
     },
     {
       "id": "s-treat-01",
       "title": "Little treat",
       "film": "The small thing you bought yourself today.",
-      "caption": "$7 well spent. deserved, even.",
+      "caption": "little treat",
       "pillar": "treats",
       "sticker": "none",
       "time": "midday",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🧁"
     },
     {
       "id": "s-treat-02",
       "title": "Package day",
       "film": "Opening a delivery on camera, real first reaction, 60s.",
-      "caption": "it's here. moment of truth",
+      "caption": "it came!!",
       "pillar": "treats",
       "sticker": "none",
       "time": "evening",
       "niches": [
         "*"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "📦"
     },
     {
       "id": "s-night-01",
       "title": "Sign-off",
       "film": "Dim lamp, book or show on screen.",
-      "caption": "ok goodnight for real this time. same time tomorrow",
+      "caption": "goodnight 🤍",
       "pillar": "home-cozy",
       "sticker": "none",
       "time": "night",
       "niches": [
         "*"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🌙"
     },
     {
       "id": "s-clean-01",
       "title": "Matcha, no talking",
       "film": "Whisking matcha in morning light, ambient sound only.",
-      "caption": "7am and thriving. genuinely unwell about how much i love this routine",
+      "caption": "matcha first",
       "pillar": "food-coffee",
       "sticker": "none",
       "time": "morning",
@@ -351,26 +388,28 @@
         "clean-girl",
         "wellness-itgirl"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🍵"
     },
     {
       "id": "s-clean-02",
       "title": "Pilates proof",
       "film": "Post-class mirror pic, hair still slick.",
-      "caption": "almost cancelled twice. went anyway. insufferable about it now",
+      "caption": "made it to pilates",
       "pillar": "wellness",
       "sticker": "none",
       "time": "morning",
       "niches": [
         "clean-girl"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🩰"
     },
     {
       "id": "s-clean-03",
       "title": "Everything shower notice",
       "film": "Shelf of products before the everything shower.",
-      "caption": "everything shower commencing. see you in 2 business hours",
+      "caption": "everything shower tonight",
       "pillar": "girly-maintenance",
       "sticker": "poll",
       "time": "evening",
@@ -378,143 +417,158 @@
         "clean-girl",
         "wellness-itgirl"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🚿",
+      "sticker_text": "finally · rip"
     },
     {
       "id": "s-clean-04",
       "title": "Desk reset",
       "film": "15-second time-lapse tidying desk/vanity to baseline.",
-      "caption": "reset complete. she's a new woman",
+      "caption": "desk reset",
       "pillar": "home-cozy",
       "sticker": "none",
       "time": "evening",
       "niches": [
         "clean-girl"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🖥️"
     },
     {
       "id": "s-gym-01",
       "title": "5am club",
       "film": "Gym parking lot or front desk clock.",
-      "caption": "we're here. barely. proud of us",
+      "caption": "5am. we’re here",
       "pillar": "gym",
       "sticker": "none",
       "time": "morning",
       "niches": [
         "gym-girl"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🏋️‍♀️"
     },
     {
       "id": "s-gym-02",
       "title": "Guess the split",
       "film": "Mirror pic in gym fit before starting.",
-      "caption": "guess today's split. winners get nothing but respect",
+      "caption": "guess the split",
       "pillar": "gym",
       "sticker": "poll",
       "time": "morning",
       "niches": [
         "gym-girl"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "💪",
+      "sticker_text": "legs · upper"
     },
     {
       "id": "s-gym-03",
       "title": "Post-gym plate",
       "film": "60s assembling the actual post-workout meal.",
-      "caption": "the reward portion of the program",
+      "caption": "post gym meal",
       "pillar": "food-coffee",
       "sticker": "none",
       "time": "midday",
       "niches": [
         "gym-girl"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🍗"
     },
     {
       "id": "s-gym-04",
       "title": "PR note",
       "film": "Screenshot of a rep/weight PR from the tracking app.",
-      "caption": "not to be dramatic but this number made my whole week",
+      "caption": "new pr 🥹",
       "pillar": "gym",
       "sticker": "none",
       "time": "midday",
       "niches": [
         "gym-girl"
       ],
-      "format": "screenshot"
+      "format": "screenshot",
+      "emoji": "📈"
     },
     {
       "id": "s-lux-01",
       "title": "Flower friday",
       "film": "Unwrapping grocery-store flowers into a vase, frames sticker.",
-      "caption": "bought myself flowers again. this is a stable and healthy pattern",
+      "caption": "flowers for the apartment",
       "pillar": "home-cozy",
       "sticker": "frames",
       "time": "midday",
       "niches": [
         "soft-luxury"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "💐"
     },
     {
       "id": "s-lux-02",
       "title": "Table situation",
       "film": "Brunch table pan — hands, coffee, light. No faces needed.",
-      "caption": "no thoughts just this table",
+      "caption": "brunch",
       "pillar": "food-coffee",
       "sticker": "none",
       "time": "midday",
       "niches": [
         "soft-luxury"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🥂"
     },
     {
       "id": "s-lux-03",
       "title": "The ritual",
       "film": "Bath running / robe / wine or tea, one elegant clip.",
-      "caption": "do not perceive me until tomorrow",
+      "caption": "night off",
       "pillar": "treats",
       "sticker": "none",
       "time": "night",
       "niches": [
         "soft-luxury"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🛁"
     },
     {
       "id": "s-lux-04",
       "title": "One nice thing",
       "film": "Close-up of one luxe detail from today; location behind reveal sticker.",
-      "caption": "guess where i am rn. hint: i'm never leaving",
+      "caption": "guess where",
       "pillar": "treats",
       "sticker": "reveal",
       "time": "evening",
       "niches": [
         "soft-luxury"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "✨",
+      "sticker_text": "dm to see 👀"
     },
     {
       "id": "s-gnd-01",
       "title": "Today's small chaos",
       "film": "Front-camera 45 seconds telling one ridiculous thing that happened, comments on.",
-      "caption": "story time bc who else am i going to tell",
+      "caption": "ok so. story time",
       "pillar": "interactive",
       "sticker": "story-comments",
       "time": "evening",
       "niches": [
         "girl-next-door"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🤳",
+      "sticker_text": "💬 comments on"
     },
     {
       "id": "s-gnd-02",
       "title": "Pet interruption",
       "film": "Whatever your pet is doing right now.",
-      "caption": "he pays no rent and runs this entire household",
+      "caption": "he’s so dumb i love him",
       "pillar": "home-cozy",
       "sticker": "none",
       "time": "any",
@@ -522,202 +576,227 @@
         "girl-next-door",
         "country-outdoors"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🐶"
     },
     {
       "id": "s-gnd-03",
       "title": "Thrift jury duty",
       "film": "Hold up the questionable thrift find.",
-      "caption": "jury, your verdict. i already know i'm buying it either way",
+      "caption": "yay or nah",
       "pillar": "out-and-about",
       "sticker": "poll",
       "time": "midday",
       "niches": [
         "girl-next-door"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🛍️",
+      "sticker_text": "keep · put it back"
     },
     {
       "id": "s-gnd-04",
       "title": "Recipe attempt, live",
       "film": "Two stories: attempting the recipe → the honest result.",
-      "caption": "attempting this. if you don't hear from me it went badly",
+      "caption": "attempting this. pray",
       "pillar": "food-coffee",
       "sticker": "none",
       "time": "evening",
       "niches": [
         "girl-next-door"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🍪"
     },
     {
       "id": "s-alt-01",
       "title": "Flash fit",
       "film": "Night flash photo of the fit against a plain wall, grainy on purpose.",
-      "caption": "the wall gets me",
+      "caption": "tonight",
       "pillar": "fit-check",
       "sticker": "none",
       "time": "night",
       "niches": [
         "alt-edgy"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🖤"
     },
     {
       "id": "s-alt-02",
       "title": "Current rotation",
       "film": "Add-yours-music sticker with the song on repeat.",
-      "caption": "this song has been playing for 4 days. trade me something",
+      "caption": "on repeat all week",
       "pillar": "music-art",
       "sticker": "add-yours-music",
       "time": "evening",
       "niches": [
         "alt-edgy"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🎧",
+      "sticker_text": "🎵 add yours"
     },
     {
       "id": "s-alt-03",
       "title": "Next tattoo debate",
       "film": "Sketch or reference photo of the next tattoo idea.",
-      "caption": "placement thoughts. wrong answers will be remembered",
+      "caption": "next tat. where",
       "pillar": "interactive",
       "sticker": "poll",
       "time": "evening",
       "niches": [
         "alt-edgy"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🖊️",
+      "sticker_text": "arm · back"
     },
     {
       "id": "s-alt-04",
       "title": "Soft hobby reveal",
       "film": "The soft thing you actually do — crochet, plants, baking.",
-      "caption": "yes this is also me. tell no one",
+      "caption": "don’t say anything",
       "pillar": "home-cozy",
       "sticker": "none",
       "time": "evening",
       "niches": [
         "alt-edgy"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🧶"
     },
     {
       "id": "s-glam-01",
       "title": "GRWM checkpoint",
       "film": "Half-done makeup, one brow up.",
-      "caption": "halfway. lashes or no lashes, you're deciding",
+      "caption": "halfway",
       "pillar": "girly-maintenance",
       "sticker": "poll",
       "time": "evening",
       "niches": [
         "glam-baddie"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "💄",
+      "sticker_text": "lashes · no lashes"
     },
     {
       "id": "s-glam-02",
       "title": "Final reveal",
       "film": "The full look, 30+ minutes after the checkpoint story.",
-      "caption": "worth the wait? don't answer, i know",
+      "caption": "ok done ✨",
       "pillar": "fit-check",
       "sticker": "none",
       "time": "night",
       "niches": [
         "glam-baddie"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "✨"
     },
     {
       "id": "s-glam-03",
       "title": "Product on trial",
       "film": "New makeup product first impressions in one 60s story.",
-      "caption": "testing this so you don't have to. verdict incoming",
+      "caption": "testing this",
       "pillar": "girly-maintenance",
       "sticker": "slider",
       "time": "evening",
       "niches": [
         "glam-baddie"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "💋",
+      "sticker_text": "💯 slide"
     },
     {
       "id": "s-ctry-01",
       "title": "Golden hour",
       "film": "The sunset from wherever you are, once a week minimum.",
-      "caption": "free every single night and people still stay inside",
+      "caption": "tonight’s sky",
       "pillar": "out-and-about",
       "sticker": "none",
       "time": "evening",
       "niches": [
         "country-outdoors"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "🌅"
     },
     {
       "id": "s-ctry-02",
       "title": "Truck radio thoughts",
       "film": "Front camera in the truck, windows down, one thought from today.",
-      "caption": "windows down thoughts, volume 1",
+      "caption": "windows down kind of day",
       "pillar": "interactive",
       "sticker": "story-comments",
       "time": "midday",
       "niches": [
         "country-outdoors"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🛻",
+      "sticker_text": "💬 comments on"
     },
     {
       "id": "s-ctry-03",
       "title": "Weekend vote",
       "film": "Poll now, then post whichever wins this weekend.",
-      "caption": "lake or bonfire. majority rules, i don't make the laws",
+      "caption": "this weekend?",
       "pillar": "friends-social",
       "sticker": "poll",
       "time": "morning",
       "niches": [
         "country-outdoors"
       ],
-      "format": "text"
+      "format": "text",
+      "emoji": "🔥",
+      "sticker_text": "lake · bonfire"
     },
     {
       "id": "s-well-01",
       "title": "Journal corner",
       "film": "Partial shot of today's journal spread.",
-      "caption": "today's page. your turn — one thing you're grateful for, go",
+      "caption": "morning pages",
       "pillar": "wellness",
       "sticker": "question",
       "time": "morning",
       "niches": [
         "wellness-itgirl"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "📓",
+      "sticker_text": "one good thing today"
     },
     {
       "id": "s-well-02",
       "title": "Market haul",
       "film": "Farmers market haul spread on the counter, 60s naming favorites.",
-      "caption": "spent the whole week's fun budget on produce and flowers. zero regrets",
+      "caption": "market run",
       "pillar": "food-coffee",
       "sticker": "none",
       "time": "midday",
       "niches": [
         "wellness-itgirl"
       ],
-      "format": "video"
+      "format": "video",
+      "emoji": "🍑"
     },
     {
       "id": "s-well-03",
       "title": "Currently reading",
       "film": "Book + drink + honest one-line review so far.",
-      "caption": "chapter 6 and i already know how this ends. recs for the next one?",
+      "caption": "current read",
       "pillar": "wellness",
       "sticker": "question",
       "time": "evening",
       "niches": [
         "wellness-itgirl"
       ],
-      "format": "photo"
+      "format": "photo",
+      "emoji": "📖",
+      "sticker_text": "what next"
     }
   ],
   "reels": [
