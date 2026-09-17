@@ -14,12 +14,10 @@ export default async function AdminPage() {
   const creators = await q(
     "SELECT slug,name,ig_handle,email,gmail,niche,secondary_niche,aesthetic_notes,posting_notes,goals FROM creators ORDER BY name"
   );
-  const examples = await q("SELECT * FROM examples ORDER BY created_at DESC LIMIT 100");
 
   return (
     <AdminPanel
       creators={JSON.parse(JSON.stringify(creators))}
-      examples={JSON.parse(JSON.stringify(examples))}
       weekKey={isoWeek().key}
       persistent={usingRealDb() || !process.env.VERCEL}
     />

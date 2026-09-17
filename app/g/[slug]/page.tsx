@@ -1,6 +1,6 @@
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
-import { getCreator, q } from "@/lib/db";
+import { getCreator } from "@/lib/db";
 import { verify, creatorCookie } from "@/lib/auth";
 import { buildPlan, NICHES, MONTHS, STICKER_LABELS, isoWeek } from "@/lib/plan";
 import LockForm from "./LockForm";
@@ -23,11 +23,6 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
   const n = NICHES[creator.niche] ?? { name: creator.niche, description: "", aesthetic: "", peer_watchlist_note: "" };
   const n2 = creator.secondary_niche ? NICHES[creator.secondary_niche] : null;
   const range = `${MONTHS[plan.days[0].date.getUTCMonth()]} ${plan.days[0].date.getUTCDate()} – ${MONTHS[plan.days[6].date.getUTCMonth()]} ${plan.days[6].date.getUTCDate()}`;
-
-  const examples = await q(
-    "SELECT * FROM examples WHERE niche = ANY($1) OR niche = '*' ORDER BY created_at DESC LIMIT 6",
-    [plan.myNiches]
-  );
 
   return (
     <div className="issue">
@@ -52,6 +47,10 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
 
       <section>
         <h2><span className="no">01</span> Story schedule</h2>
+        <p className="section-note">
+          Most of these are just a photo + a sticker. Captions are starting points — retype them how you&apos;d
+          actually say it, or don&apos;t use them at all. Your words &gt; our words, always.
+        </p>
         <div className="week">
           {plan.days.map((d, i) => (
             <article key={d.name} className={`day ${i >= 5 ? "weekend" : ""}`}>
@@ -68,7 +67,9 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
                     <span className="slot-time">{s.time}</span>
                     <div>
                       <strong>{s.fresh && <em className="fresh">new this week </em>}{s.title}</strong>
-                      <p>{s.prompt}</p>
+                      <p>{s.film ?? s.prompt}</p>
+                      {s.caption && <div className="cap">{s.caption}</div>}
+                      <span className="tag fmt">{s.format ?? "photo"}</span>{" "}
                       {STICKER_LABELS[s.sticker] && <span className="tag">{STICKER_LABELS[s.sticker]}</span>}
                     </div>
                   </li>
@@ -79,27 +80,8 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
         </div>
       </section>
 
-      {examples.length > 0 && (
-        <section>
-          <h2><span className="no">02</span> Steal this format</h2>
-          <p className="section-note">
-            Real posts from creators in your lane that worked this week. Don&apos;t copy the video — copy the structure, in your life.
-          </p>
-          <div className="examples">
-            {examples.map((ex: any) => (
-              <a key={ex.id} className="example" href={ex.url} target="_blank" rel="noopener noreferrer">
-                <span className="ex-handle">{ex.handle || ex.niche}</span>
-                <h3>{ex.title}</h3>
-                <p>{ex.why}</p>
-                <span className="ex-open">watch it ↗</span>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
-
       <section>
-        <h2><span className="no">{examples.length > 0 ? "03" : "02"}</span> Reels to film this week</h2>
+        <h2><span className="no">02</span> Reels to film this week</h2>
         <p className="section-note">
           Pick two minimum. Anything marked Trial Reel goes out as a trial first — promote it to the grid only if
           non-follower reach looks good.
@@ -118,7 +100,7 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
       </section>
 
       <section>
-        <h2><span className="no">{examples.length > 0 ? "04" : "03"}</span> Features worth playing with</h2>
+        <h2><span className="no">03</span> Features worth playing with</h2>
         <div className="feats">
           {plan.features.map((f: any) => (
             <div key={f.name} className="feat"><h4>{f.name}</h4><p>{f.why}</p></div>

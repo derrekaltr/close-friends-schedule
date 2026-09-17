@@ -9,11 +9,9 @@ const NICHES: Record<string, string> = {
 
 const EMPTY = { slug: "", name: "", ig_handle: "", email: "", gmail: "", passcode: "", niche: "clean-girl", secondary_niche: "", aesthetic_notes: "", posting_notes: "", goals: "" };
 
-export default function AdminPanel({ creators, examples, weekKey, persistent }: any) {
+export default function AdminPanel({ creators, weekKey, persistent }: any) {
   const [form, setForm] = useState<any>(EMPTY);
   const [msg, setMsg] = useState("");
-  const [exForm, setExForm] = useState({ niche: "clean-girl", url: "", handle: "", title: "", why: "" });
-  const [exMsg, setExMsg] = useState("");
   const set = (k: string) => (e: any) => setForm({ ...form, [k]: e.target.value });
 
   async function saveCreator(e: React.FormEvent) {
@@ -30,22 +28,6 @@ export default function AdminPanel({ creators, examples, weekKey, persistent }: 
   async function removeCreator(slug: string, name: string) {
     if (!confirm(`Remove ${name}? Her page stops working immediately.`)) return;
     await fetch(`/api/admin/creators?slug=${encodeURIComponent(slug)}`, { method: "DELETE" });
-    window.location.reload();
-  }
-
-  async function saveExample(e: React.FormEvent) {
-    e.preventDefault();
-    setExMsg("saving…");
-    const res = await fetch("/api/admin/examples", {
-      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(exForm),
-    });
-    const data = await res.json();
-    if (data.ok) window.location.reload();
-    else setExMsg(data.error || "something went wrong");
-  }
-
-  async function removeExample(id: number) {
-    await fetch(`/api/admin/examples?id=${id}`, { method: "DELETE" });
     window.location.reload();
   }
 
@@ -126,42 +108,6 @@ export default function AdminPanel({ creators, examples, weekKey, persistent }: 
         </table>
       </div>
 
-      <div className="panel">
-        <h2>&ldquo;Steal this format&rdquo; examples ({examples.length})</h2>
-        <p className="sub">Real posts from creators in each niche. These show on every matching girl&apos;s page, newest first. Added automatically by the weekly refresh, or by hand here.</p>
-        <form onSubmit={saveExample}>
-          <div className="grid2">
-            <div><label>Niche</label>
-              <select value={exForm.niche} onChange={(e) => setExForm({ ...exForm, niche: e.target.value })}>
-                <option value="*">all niches</option>
-                {Object.entries(NICHES).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
-              </select>
-            </div>
-            <div><label>Link (reel/post)</label><input value={exForm.url} onChange={(e) => setExForm({ ...exForm, url: e.target.value })} placeholder="https://www.instagram.com/reel/…" required /></div>
-            <div><label>Creator handle</label><input value={exForm.handle} onChange={(e) => setExForm({ ...exForm, handle: e.target.value })} placeholder="@creator" /></div>
-            <div><label>What it is</label><input value={exForm.title} onChange={(e) => setExForm({ ...exForm, title: e.target.value })} placeholder="silent 5am reset vlog" required /></div>
-          </div>
-          <div style={{ marginTop: 14 }}>
-            <label>Why it works / what to steal</label>
-            <textarea value={exForm.why} onChange={(e) => setExForm({ ...exForm, why: e.target.value })} placeholder="the structure to copy, not the video" />
-          </div>
-          <div style={{ marginTop: 18 }}><button className="btn" type="submit">Add example</button></div>
-          <div className="msg">{exMsg}</div>
-        </form>
-        <table className="roster" style={{ marginTop: 18 }}>
-          <thead><tr><th>Niche</th><th>Example</th><th>Week</th><th></th></tr></thead>
-          <tbody>
-            {examples.map((ex: any) => (
-              <tr key={ex.id}>
-                <td>{ex.niche === "*" ? "all" : (NICHES[ex.niche] || ex.niche)}</td>
-                <td><a href={ex.url} target="_blank">{ex.title}</a> <span style={{ color: "var(--soft)" }}>{ex.handle}</span></td>
-                <td>{ex.week}</td>
-                <td><button className="btn danger" onClick={() => removeExample(ex.id)}>Remove</button></td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
     </div>
   );
 }

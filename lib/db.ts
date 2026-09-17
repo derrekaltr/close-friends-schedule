@@ -54,17 +54,7 @@ CREATE TABLE IF NOT EXISTS creators (
   goals TEXT DEFAULT '',
   created_at TIMESTAMPTZ DEFAULT now()
 );
-CREATE TABLE IF NOT EXISTS examples (
-  id SERIAL PRIMARY KEY,
-  niche TEXT NOT NULL,
-  url TEXT NOT NULL,
-  handle TEXT DEFAULT '',
-  title TEXT NOT NULL,
-  why TEXT DEFAULT '',
-  kind TEXT DEFAULT 'reel',
-  week TEXT DEFAULT '',
-  created_at TIMESTAMPTZ DEFAULT now()
-);`;
+`;
 
 async function ensureReady() {
   if (!readiness) {
