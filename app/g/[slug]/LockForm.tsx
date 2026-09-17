@@ -22,7 +22,7 @@ export default function LockForm({ slug, firstName, week, year }: { slug: string
   return (
     <div className="lock">
       <form className="cover" onSubmit={submit}>
-        <p className="over">A private weekly issue for</p>
+        <p className="over">ALTR · a private weekly issue for</p>
         <h1>{firstName}</h1>
         <p className="issue-line">Issue {week} · {year}</p>
         <input type="password" autoComplete="off" placeholder="passcode" aria-label="passcode"

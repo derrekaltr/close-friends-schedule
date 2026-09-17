@@ -27,7 +27,7 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
   return (
     <div className="issue">
       <header className="masthead">
-        <p className="over">The Weekly Edit · private issue for</p>
+        <p className="over">ALTR · The Weekly Edit · private issue for</p>
         <h1>{creator.name}</h1>
         <p className="meta">
           <span>Issue {plan.week}</span>

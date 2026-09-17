@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="lock">
       <div className="cover">
-        <p className="over">altr mgmt</p>
+        <p className="over">ALTR</p>
         <h1>The Weekly Edit</h1>
         <p className="issue-line">private creator planning</p>
         <p style={{ fontSize: 14, color: "var(--soft)" }}>
