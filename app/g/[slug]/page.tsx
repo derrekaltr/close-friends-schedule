@@ -60,7 +60,7 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
                 <span className="day-num">{String(d.date.getUTCDate()).padStart(2, "0")}</span>
                 <div>
                   <h3>{d.name}</h3>
-                  <span className="day-sub">{MONTHS[d.date.getUTCMonth()]} · post 2–3, skip guilt-free if life happens</span>
+                  <span className="day-sub">{MONTHS[d.date.getUTCMonth()]} · post 1–2, skip guilt-free if life happens</span>
                 </div>
               </header>
               <ol className="slots">

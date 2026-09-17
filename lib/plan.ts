@@ -73,7 +73,7 @@ export function buildPlan(creator: { slug: string; niche: string; secondary_nich
   stories.sort((a, b) => (b.fresh ? 1 : 0) - (a.fresh ? 1 : 0));
 
   const days = weekDates(year, week).map((date, i) => {
-    const items = stories.slice(i * 3, i * 3 + 3);
+    const items = stories.slice(i * 2, i * 2 + 2);
     items.sort((a, b) => (TIME_ORDER[a.time] ?? 1.5) - (TIME_ORDER[b.time] ?? 1.5));
     return { name: DAY_NAMES[i], date, items };
   });
