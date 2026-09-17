@@ -91,7 +91,7 @@ export default function AdminPanel({ creators, weekKey, persistent }: any) {
           <tbody>
             {creators.map((c: any) => (
               <tr key={c.slug}>
-                <td><strong>{c.name}</strong><br /><span style={{ color: "var(--soft)", fontSize: 12 }}>{c.email}</span></td>
+                <td><strong>{c.name}</strong><br /><span style={{ color: "var(--soft-white)", fontSize: 15 }}>{c.email}</span></td>
                 <td>{c.ig_handle ? `@${c.ig_handle}` : "—"}</td>
                 <td>{NICHES[c.niche] || c.niche}{c.secondary_niche ? ` × ${NICHES[c.secondary_niche]}` : ""}</td>
                 <td><a href={`/g/${c.slug}`} target="_blank">/g/{c.slug}</a></td>
