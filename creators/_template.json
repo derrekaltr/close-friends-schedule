@@ -1,0 +1,14 @@
+{
+  "_instructions": "Copy this file to creators/<slug>.json (slug = lowercase-name, e.g. 'maya-r.json'). Never commit real passcodes to a shared repo — see README for the env-var option.",
+  "slug": "first-last",
+  "name": "Full Name",
+  "email": "her@email.com",
+  "gmail": "her.shared@gmail.com",
+  "passcode": "choose-something-memorable",
+  "niche": "clean-girl",
+  "secondary_niche": null,
+  "timezone": "America/Chicago",
+  "posting_notes": "Anything specific: days she can't post, content she's not comfortable with, pets/roommates that can appear, etc.",
+  "aesthetic_notes": "Her personal look: colors she wears, editing style she likes, energy on camera.",
+  "goals": "e.g. grow story engagement, get comfortable talking on camera, 3 reels/week"
+}

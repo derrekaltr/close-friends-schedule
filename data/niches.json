@@ -1,0 +1,108 @@
+{
+  "niches": {
+    "clean-girl": {
+      "name": "Clean Girl",
+      "description": "Minimal, polished, effortless. Neutral tones, slick buns, gold hoops, matcha, pilates. Life looks curated but calm.",
+      "visual_signals": [
+        "Wardrobe leans neutral — beige, cream, white, black basics",
+        "Hair usually pulled back sleek; minimal 'no-makeup' makeup",
+        "Her camera roll is coffee cups, gym mirrors, and tidy corners of her apartment",
+        "Naturally tidy spaces; she already lights candles and makes her bed"
+      ],
+      "content_pillars": { "morning-routine": 3, "food-coffee": 3, "girly-maintenance": 2, "home-cozy": 2, "fit-check": 2, "wellness": 3, "out-and-about": 2, "interactive": 2 },
+      "aesthetic": "Bright natural light, warm whites, minimal text on screen, lowercase captions",
+      "peer_watchlist_note": "Watch clean-girl lifestyle creators for morning routine formats, matcha/pilates content, and 'aesthetic reset' videos — save formats you like to your inspiration folder each week."
+    },
+    "gym-girl": {
+      "name": "Gym Girl",
+      "description": "Fitness-forward but lifestyle-first. Progress, gym fits, meal prep, and the discipline-as-identity vibe.",
+      "visual_signals": [
+        "Owns more athletic sets than jeans; hair in claw clips or braids",
+        "Comfortable filming herself in public gym settings",
+        "Talks about protein, steps, or lifting splits unprompted",
+        "Visible routine consistency — same gym time daily"
+      ],
+      "content_pillars": { "gym": 4, "food-coffee": 3, "morning-routine": 2, "fit-check": 2, "interactive": 2, "out-and-about": 1, "girly-maintenance": 2 },
+      "aesthetic": "Mirror angles, timestamps, sweat-and-done honesty, before/during energy",
+      "peer_watchlist_note": "Watch lifestyle-fitness creators (not bodybuilders) for 'come to the gym with me' and what-I-eat formats each week."
+    },
+    "soft-luxury": {
+      "name": "Soft Luxury",
+      "description": "The soft-life aesthetic: brunches, fresh flowers, nice hotels, small designer touches, self-care as a lifestyle.",
+      "visual_signals": [
+        "Gravitates to gold jewelry, silk, neutrals with one luxe item",
+        "Photographs food and interiors instinctively",
+        "Loves a ritual: nails every two weeks, fresh flowers weekly",
+        "Speaks softly/calmly on camera; elegant energy over loud energy"
+      ],
+      "content_pillars": { "food-coffee": 3, "girly-maintenance": 3, "home-cozy": 3, "fit-check": 2, "out-and-about": 3, "interactive": 2, "treats": 3 },
+      "aesthetic": "Warm golden light, slow pans, minimal talking, ambient audio or soft trending sounds",
+      "peer_watchlist_note": "Watch soft-life and 'romanticize your life' creators for table-scape, hotel, and self-care ritual formats."
+    },
+    "girl-next-door": {
+      "name": "Girl Next Door",
+      "description": "Relatable, warm, a little chaotic. Target runs, thrifting, pets, roommates, real laughing-at-herself energy.",
+      "visual_signals": [
+        "Messy bun, oversized hoodie, comfortable being unpolished on camera",
+        "Storytelling comes naturally — she narrates her day without prompting",
+        "Pets, siblings, or roommates constantly in frame",
+        "Finds humor in small daily fails"
+      ],
+      "content_pillars": { "out-and-about": 3, "food-coffee": 2, "home-cozy": 3, "interactive": 3, "friends-social": 3, "fit-check": 1, "morning-routine": 1, "treats": 2 },
+      "aesthetic": "Front-camera talking, unfiltered lighting, captions with personality, face-first content",
+      "peer_watchlist_note": "Watch relatable day-in-the-life and 'come with me to Target' creators for talking-story and errand-vlog formats."
+    },
+    "alt-edgy": {
+      "name": "Alt / Edgy",
+      "description": "Tattoos, piercings, band tees, dark wardrobe, concerts, art. Softness underneath the edge is the hook.",
+      "visual_signals": [
+        "Wardrobe is 80% black; statement boots or jewelry",
+        "Has tattoos/piercings or wants them; strong music identity",
+        "Aesthetic instincts lean moody — dim lighting, film grain",
+        "Contrast content (edgy look, soft hobbies) feels natural to her"
+      ],
+      "content_pillars": { "fit-check": 3, "out-and-about": 3, "friends-social": 2, "home-cozy": 2, "interactive": 2, "girly-maintenance": 2, "treats": 1, "music-art": 3 },
+      "aesthetic": "Moody light, flash photos at night, grain, handwritten-style text, alt/indie audio",
+      "peer_watchlist_note": "Watch alt-fashion and concert-lifestyle creators for fit-check transitions and flash-photo-dump formats."
+    },
+    "glam-baddie": {
+      "name": "Glam / Baddie",
+      "description": "Full glam, nights out, makeup skill, confidence-forward. The transformation is the content.",
+      "visual_signals": [
+        "Strong makeup skills or high interest in learning",
+        "Owns going-out wardrobe; comfortable dressing up midweek",
+        "Loves a GRWM — talks naturally while doing makeup",
+        "Confident direct-to-camera presence"
+      ],
+      "content_pillars": { "girly-maintenance": 4, "fit-check": 3, "friends-social": 3, "out-and-about": 2, "interactive": 2, "morning-routine": 1, "treats": 2 },
+      "aesthetic": "Ring light + city night light, GRWM voiceovers, sharp transitions on beat",
+      "peer_watchlist_note": "Watch GRWM and nightlife creators for get-ready transition formats and voiceover storytelling."
+    },
+    "country-outdoors": {
+      "name": "Country / Outdoors",
+      "description": "Sunsets, lakes, trucks, boots, bonfires. Slower pace, golden hour, small-town warmth.",
+      "visual_signals": [
+        "Denim, boots, sundresses; natural makeup",
+        "Most of her camera roll is outside — fields, water, sky",
+        "Comfortable with animals, driving content, campfires",
+        "Golden-hour instincts; her best photos are outdoors"
+      ],
+      "content_pillars": { "out-and-about": 4, "friends-social": 2, "food-coffee": 2, "fit-check": 2, "home-cozy": 2, "interactive": 2, "morning-routine": 1 },
+      "aesthetic": "Golden hour everything, country/folk audio, wide shots, minimal editing",
+      "peer_watchlist_note": "Watch country-lifestyle creators for truck-radio talking clips, sunset formats, and weekend-recap dumps."
+    },
+    "wellness-itgirl": {
+      "name": "Wellness It-Girl",
+      "description": "Journaling, yoga, farmers markets, reading, smoothies. Growth and intention as an aesthetic.",
+      "visual_signals": [
+        "Already journals, reads, or does yoga off-camera",
+        "Farmers market / health food store is a genuine habit",
+        "Calm speaking voice, thoughtful captions",
+        "Drawn to sunrise, nature walks, tea, crystals, or all four"
+      ],
+      "content_pillars": { "wellness": 4, "morning-routine": 3, "food-coffee": 3, "home-cozy": 2, "interactive": 3, "out-and-about": 2, "girly-maintenance": 1 },
+      "aesthetic": "Soft daylight, slow cuts, voiceover journaling tone, ambient sounds",
+      "peer_watchlist_note": "Watch wellness and 'that girl' creators for habit-stack formats, silent vlogs, and sunday-reset content."
+    }
+  }
+}

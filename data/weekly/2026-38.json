@@ -1,0 +1,11 @@
+{
+  "_source": "Week 38 refresh — seeded from Sep 2026 IG changelogs (SocialBee, NapoleonCat, HeyOrca)",
+  "stories": [
+    { "id": "w38-01", "title": "60-second one-take catch-up", "prompt": "Stories don't split at 15s anymore — film one unedited 60-second front-camera catch-up about your week, like a voice note to the gc. Comments on.", "pillar": "interactive", "sticker": "story-comments", "time": "evening", "niches": ["*"] },
+    { "id": "w38-02", "title": "Swipe-up sticker play", "prompt": "Use the new swipe-up-to-add-sticker gesture mid-story and mention it ('did you know you could do this?') — early-feature content always reads as chronically online in the best way.", "pillar": "interactive", "sticker": "none", "time": "midday", "niches": ["*"] }
+  ],
+  "reels": [
+    { "id": "w38-r1", "hook": "September so far", "concept": "Mid-month photo dump reel on a cozy autumn audio — first fall content of the year lands hard the week people start feeling it. Schedule as a Trial Reel.", "feature": "trial-reel-scheduled", "niches": ["*"] }
+  ],
+  "features_to_try": []
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "demo-girl",
+  "name": "Demo Girl",
+  "email": "demo@example.com",
+  "gmail": "demo.shared@gmail.com",
+  "passcode": "peach123",
+  "niche": "soft-luxury",
+  "secondary_niche": "wellness-itgirl",
+  "timezone": "America/Chicago",
+  "posting_notes": "Demo profile for previewing the dashboard. Delete once real creators are onboarded.",
+  "aesthetic_notes": "Warm neutrals, gold jewelry, soft-spoken on camera.",
+  "goals": "Preview the weekly plan format."
+}

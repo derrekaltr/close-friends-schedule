@@ -1,0 +1,3 @@
+# generated output — regenerate with: node tools/generate.mjs
+site/
+.DS_Store
