@@ -13,7 +13,8 @@
         "*"
       ],
       "format": "video",
-      "emoji": "🛏️"
+      "emoji": "🛏️",
+      "cap_pos": "top"
     },
     {
       "id": "s-morning-02",
@@ -28,7 +29,8 @@
       ],
       "format": "photo",
       "emoji": "🍳",
-      "sticker_text": "looks good · order takeout"
+      "sticker_text": "looks good · order takeout",
+      "cap_pos": "center"
     },
     {
       "id": "s-morning-03",
@@ -43,7 +45,8 @@
       ],
       "format": "photo",
       "emoji": "📝",
-      "sticker_text": "what’s on yours"
+      "sticker_text": "what’s on yours",
+      "cap_pos": "center"
     },
     {
       "id": "s-coffee-01",
@@ -58,7 +61,8 @@
       ],
       "format": "photo",
       "emoji": "☕",
-      "sticker_text": "dm to see 👀"
+      "sticker_text": "dm to see 👀",
+      "cap_pos": "center"
     },
     {
       "id": "s-coffee-02",
@@ -73,7 +77,8 @@
       ],
       "format": "video",
       "emoji": "🥐",
-      "sticker_text": "☕ rate it"
+      "sticker_text": "☕ rate it",
+      "cap_pos": "center"
     },
     {
       "id": "s-food-01",
@@ -87,7 +92,8 @@
         "*"
       ],
       "format": "photo",
-      "emoji": "🍝"
+      "emoji": "🍝",
+      "cap_pos": "center"
     },
     {
       "id": "s-food-02",
@@ -101,7 +107,8 @@
         "*"
       ],
       "format": "video",
-      "emoji": "🛒"
+      "emoji": "🛒",
+      "cap_pos": "top"
     },
     {
       "id": "s-maint-01",
@@ -116,7 +123,8 @@
       ],
       "format": "photo",
       "emoji": "💅",
-      "sticker_text": "yay · nay"
+      "sticker_text": "yay · nay",
+      "cap_pos": "center"
     },
     {
       "id": "s-maint-02",
@@ -130,7 +138,8 @@
         "*"
       ],
       "format": "photo",
-      "emoji": "💇‍♀️"
+      "emoji": "💇‍♀️",
+      "cap_pos": "lower"
     },
     {
       "id": "s-maint-03",
@@ -144,7 +153,8 @@
         "*"
       ],
       "format": "photo",
-      "emoji": "🧴"
+      "emoji": "🧴",
+      "cap_pos": "center"
     },
     {
       "id": "s-home-01",
@@ -158,7 +168,8 @@
         "*"
       ],
       "format": "photo",
-      "emoji": "🛋️"
+      "emoji": "🛋️",
+      "cap_pos": "lower"
     },
     {
       "id": "s-home-02",
@@ -173,7 +184,8 @@
       ],
       "format": "photo",
       "emoji": "🕯️",
-      "sticker_text": "drop em"
+      "sticker_text": "drop em",
+      "cap_pos": "center"
     },
     {
       "id": "s-home-03",
@@ -187,7 +199,8 @@
         "*"
       ],
       "format": "video",
-      "emoji": "🧺"
+      "emoji": "🧺",
+      "cap_pos": "top"
     },
     {
       "id": "s-out-01",
@@ -201,7 +214,8 @@
         "*"
       ],
       "format": "photo",
-      "emoji": "🚗"
+      "emoji": "🚗",
+      "cap_pos": "center"
     },
     {
       "id": "s-out-02",
@@ -216,7 +230,8 @@
       ],
       "format": "photo",
       "emoji": "🪞",
-      "sticker_text": "target · tj maxx"
+      "sticker_text": "target · tj maxx",
+      "cap_pos": "center"
     },
     {
       "id": "s-out-03",
@@ -230,7 +245,8 @@
         "*"
       ],
       "format": "photo",
-      "emoji": "🧸"
+      "emoji": "🧸",
+      "cap_pos": "lower"
     },
     {
       "id": "s-fit-01",
@@ -244,7 +260,8 @@
         "*"
       ],
       "format": "photo",
-      "emoji": "🪞"
+      "emoji": "🪞",
+      "cap_pos": "lower"
     },
     {
       "id": "s-fit-02",
@@ -259,7 +276,8 @@
       ],
       "format": "photo",
       "emoji": "👗",
-      "sticker_text": "left · right"
+      "sticker_text": "left · right",
+      "cap_pos": "center"
     },
     {
       "id": "s-social-01",
@@ -273,7 +291,8 @@
         "*"
       ],
       "format": "photo dump",
-      "emoji": "📸"
+      "emoji": "📸",
+      "cap_pos": "lower"
     },
     {
       "id": "s-social-02",
@@ -287,7 +306,8 @@
         "*"
       ],
       "format": "photo",
-      "emoji": "🍕"
+      "emoji": "🍕",
+      "cap_pos": "center"
     },
     {
       "id": "s-int-01",
@@ -302,7 +322,8 @@
       ],
       "format": "text",
       "emoji": "💬",
-      "sticker_text": "anything"
+      "sticker_text": "anything",
+      "cap_pos": "center"
     },
     {
       "id": "s-int-02",
@@ -317,7 +338,8 @@
       ],
       "format": "text",
       "emoji": "🤔",
-      "sticker_text": "me · her"
+      "sticker_text": "me · her",
+      "cap_pos": "center"
     },
     {
       "id": "s-int-03",
@@ -332,7 +354,8 @@
       ],
       "format": "photo",
       "emoji": "📱",
-      "sticker_text": "add yours"
+      "sticker_text": "add yours",
+      "cap_pos": "center"
     },
     {
       "id": "s-treat-01",
@@ -346,7 +369,8 @@
         "*"
       ],
       "format": "photo",
-      "emoji": "🧁"
+      "emoji": "🧁",
+      "cap_pos": "center"
     },
     {
       "id": "s-treat-02",
@@ -360,7 +384,8 @@
         "*"
       ],
       "format": "video",
-      "emoji": "📦"
+      "emoji": "📦",
+      "cap_pos": "top"
     },
     {
       "id": "s-night-01",
@@ -374,7 +399,8 @@
         "*"
       ],
       "format": "photo",
-      "emoji": "🌙"
+      "emoji": "🌙",
+      "cap_pos": "lower"
     },
     {
       "id": "s-clean-01",
@@ -389,7 +415,8 @@
         "wellness-itgirl"
       ],
       "format": "video",
-      "emoji": "🍵"
+      "emoji": "🍵",
+      "cap_pos": "top"
     },
     {
       "id": "s-clean-02",
@@ -403,7 +430,8 @@
         "clean-girl"
       ],
       "format": "photo",
-      "emoji": "🩰"
+      "emoji": "🩰",
+      "cap_pos": "lower"
     },
     {
       "id": "s-clean-03",
@@ -419,7 +447,8 @@
       ],
       "format": "photo",
       "emoji": "🚿",
-      "sticker_text": "finally · rip"
+      "sticker_text": "finally · rip",
+      "cap_pos": "center"
     },
     {
       "id": "s-clean-04",
@@ -433,7 +462,8 @@
         "clean-girl"
       ],
       "format": "video",
-      "emoji": "🖥️"
+      "emoji": "🖥️",
+      "cap_pos": "top"
     },
     {
       "id": "s-gym-01",
@@ -447,7 +477,8 @@
         "gym-girl"
       ],
       "format": "photo",
-      "emoji": "🏋️‍♀️"
+      "emoji": "🏋️‍♀️",
+      "cap_pos": "lower"
     },
     {
       "id": "s-gym-02",
@@ -462,7 +493,8 @@
       ],
       "format": "photo",
       "emoji": "💪",
-      "sticker_text": "legs · upper"
+      "sticker_text": "legs · upper",
+      "cap_pos": "center"
     },
     {
       "id": "s-gym-03",
@@ -476,7 +508,8 @@
         "gym-girl"
       ],
       "format": "video",
-      "emoji": "🍗"
+      "emoji": "🍗",
+      "cap_pos": "top"
     },
     {
       "id": "s-gym-04",
@@ -490,7 +523,8 @@
         "gym-girl"
       ],
       "format": "screenshot",
-      "emoji": "📈"
+      "emoji": "📈",
+      "cap_pos": "center"
     },
     {
       "id": "s-lux-01",
@@ -504,7 +538,8 @@
         "soft-luxury"
       ],
       "format": "photo",
-      "emoji": "💐"
+      "emoji": "💐",
+      "cap_pos": "lower"
     },
     {
       "id": "s-lux-02",
@@ -518,7 +553,8 @@
         "soft-luxury"
       ],
       "format": "video",
-      "emoji": "🥂"
+      "emoji": "🥂",
+      "cap_pos": "top"
     },
     {
       "id": "s-lux-03",
@@ -532,7 +568,8 @@
         "soft-luxury"
       ],
       "format": "video",
-      "emoji": "🛁"
+      "emoji": "🛁",
+      "cap_pos": "top"
     },
     {
       "id": "s-lux-04",
@@ -547,7 +584,8 @@
       ],
       "format": "photo",
       "emoji": "✨",
-      "sticker_text": "dm to see 👀"
+      "sticker_text": "dm to see 👀",
+      "cap_pos": "center"
     },
     {
       "id": "s-gnd-01",
@@ -562,7 +600,8 @@
       ],
       "format": "video",
       "emoji": "🤳",
-      "sticker_text": "💬 comments on"
+      "sticker_text": "💬 comments on",
+      "cap_pos": "top"
     },
     {
       "id": "s-gnd-02",
@@ -577,7 +616,8 @@
         "country-outdoors"
       ],
       "format": "photo",
-      "emoji": "🐶"
+      "emoji": "🐶",
+      "cap_pos": "lower"
     },
     {
       "id": "s-gnd-03",
@@ -592,7 +632,8 @@
       ],
       "format": "photo",
       "emoji": "🛍️",
-      "sticker_text": "keep · put it back"
+      "sticker_text": "keep · put it back",
+      "cap_pos": "center"
     },
     {
       "id": "s-gnd-04",
@@ -606,7 +647,8 @@
         "girl-next-door"
       ],
       "format": "photo",
-      "emoji": "🍪"
+      "emoji": "🍪",
+      "cap_pos": "lower"
     },
     {
       "id": "s-alt-01",
@@ -620,7 +662,8 @@
         "alt-edgy"
       ],
       "format": "photo",
-      "emoji": "🖤"
+      "emoji": "🖤",
+      "cap_pos": "lower"
     },
     {
       "id": "s-alt-02",
@@ -635,7 +678,8 @@
       ],
       "format": "photo",
       "emoji": "🎧",
-      "sticker_text": "🎵 add yours"
+      "sticker_text": "🎵 add yours",
+      "cap_pos": "center"
     },
     {
       "id": "s-alt-03",
@@ -650,7 +694,8 @@
       ],
       "format": "photo",
       "emoji": "🖊️",
-      "sticker_text": "arm · back"
+      "sticker_text": "arm · back",
+      "cap_pos": "center"
     },
     {
       "id": "s-alt-04",
@@ -664,7 +709,8 @@
         "alt-edgy"
       ],
       "format": "photo",
-      "emoji": "🧶"
+      "emoji": "🧶",
+      "cap_pos": "lower"
     },
     {
       "id": "s-glam-01",
@@ -679,7 +725,8 @@
       ],
       "format": "photo",
       "emoji": "💄",
-      "sticker_text": "lashes · no lashes"
+      "sticker_text": "lashes · no lashes",
+      "cap_pos": "center"
     },
     {
       "id": "s-glam-02",
@@ -693,7 +740,8 @@
         "glam-baddie"
       ],
       "format": "photo",
-      "emoji": "✨"
+      "emoji": "✨",
+      "cap_pos": "lower"
     },
     {
       "id": "s-glam-03",
@@ -708,7 +756,8 @@
       ],
       "format": "video",
       "emoji": "💋",
-      "sticker_text": "💯 slide"
+      "sticker_text": "💯 slide",
+      "cap_pos": "center"
     },
     {
       "id": "s-ctry-01",
@@ -722,7 +771,8 @@
         "country-outdoors"
       ],
       "format": "photo",
-      "emoji": "🌅"
+      "emoji": "🌅",
+      "cap_pos": "center"
     },
     {
       "id": "s-ctry-02",
@@ -737,7 +787,8 @@
       ],
       "format": "video",
       "emoji": "🛻",
-      "sticker_text": "💬 comments on"
+      "sticker_text": "💬 comments on",
+      "cap_pos": "top"
     },
     {
       "id": "s-ctry-03",
@@ -752,7 +803,8 @@
       ],
       "format": "text",
       "emoji": "🔥",
-      "sticker_text": "lake · bonfire"
+      "sticker_text": "lake · bonfire",
+      "cap_pos": "center"
     },
     {
       "id": "s-well-01",
@@ -767,7 +819,8 @@
       ],
       "format": "photo",
       "emoji": "📓",
-      "sticker_text": "one good thing today"
+      "sticker_text": "one good thing today",
+      "cap_pos": "center"
     },
     {
       "id": "s-well-02",
@@ -781,7 +834,8 @@
         "wellness-itgirl"
       ],
       "format": "video",
-      "emoji": "🍑"
+      "emoji": "🍑",
+      "cap_pos": "top"
     },
     {
       "id": "s-well-03",
@@ -796,7 +850,8 @@
       ],
       "format": "photo",
       "emoji": "📖",
-      "sticker_text": "what next"
+      "sticker_text": "what next",
+      "cap_pos": "center"
     }
   ],
   "reels": [

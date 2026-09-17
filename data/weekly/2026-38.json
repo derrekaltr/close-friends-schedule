@@ -14,7 +14,8 @@
         "*"
       ],
       "emoji": "🤳",
-      "sticker_text": "💬 comments on"
+      "sticker_text": "💬 comments on",
+      "cap_pos": "top"
     },
     {
       "id": "w38-02",
@@ -28,7 +29,8 @@
       "niches": [
         "*"
       ],
-      "emoji": "😅"
+      "emoji": "😅",
+      "cap_pos": "lower"
     }
   ],
   "reels": [

@@ -39,6 +39,7 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
       id: s.id, title: s.title, film: s.film ?? s.prompt, caption: s.caption, emoji: s.emoji,
       format: s.format ?? "photo", time: s.time, fresh: Boolean(s.fresh),
       stickerLabel: STICKER_LABELS[s.sticker] ?? null, sticker_text: s.sticker_text,
+      capPos: s.cap_pos ?? "lower",
     })),
   }));
 

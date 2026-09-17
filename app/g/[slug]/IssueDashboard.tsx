@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 type Item = {
   id: string; title: string; film: string; caption?: string; emoji?: string;
   format?: string; time: string; stickerLabel?: string | null; sticker_text?: string; fresh?: boolean;
+  capPos?: "top" | "center" | "lower";
 };
 type Day = { name: string; short: string; num: number; month: string; items: Item[] };
 
@@ -81,15 +82,21 @@ export default function IssueDashboard(props: {
           <div className="tasks">
             {day.items.map((s, i) => (
               <article key={s.id} className={`task ${done[s.id] ? "is-done" : ""}`}>
+                <button className={`done-btn corner ${done[s.id] ? "on" : ""}`} onClick={() => toggleDone(s.id)}>
+                  {done[s.id] ? "✓ posted" : "mark posted"}
+                </button>
                 <div className="task-side">
                   <span className="task-step">{i + 1}</span>
-                  <div className="mock" aria-hidden="true">
-                    <div className="mock-bar"><i /><i /><i /></div>
-                    <span className="mock-emoji">{s.emoji ?? "📷"}</span>
-                    <div className="mock-bottom">
-                      {s.caption && <span className="mock-cap">{s.caption}</span>}
-                      {s.stickerLabel && <span className="mock-pill">{s.sticker_text ?? s.stickerLabel}</span>}
+                  <div className="mock-wrap">
+                    <div className="mock" aria-hidden="true">
+                      <div className="mock-bar"><i /><i /><i /></div>
+                      <span className={`mock-emoji ${s.capPos === "center" ? "up" : ""}`}>{s.emoji ?? "📷"}</span>
+                      <div className={`mock-overlay pos-${s.capPos ?? "lower"}`}>
+                        {s.caption && <span className="mock-cap">{s.caption}</span>}
+                        {s.stickerLabel && <span className="mock-pill">{s.sticker_text ?? s.stickerLabel}</span>}
+                      </div>
                     </div>
+                    <span className="mock-note">↑ exact placement</span>
                   </div>
                 </div>
                 <div className="task-body">
@@ -116,9 +123,6 @@ export default function IssueDashboard(props: {
                       <p>{s.stickerLabel}{s.sticker_text ? ` — “${s.sticker_text}”` : ""}</p>
                     </div>
                   )}
-                  <button className={`done-btn ${done[s.id] ? "on" : ""}`} onClick={() => toggleDone(s.id)}>
-                    {done[s.id] ? "✓ posted" : "mark as posted"}
-                  </button>
                 </div>
               </article>
             ))}
