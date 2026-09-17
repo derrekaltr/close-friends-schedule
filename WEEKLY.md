@@ -20,7 +20,8 @@ Run this once a week (Sunday or Monday morning) so every girl's issue opens with
 }
 ```
 
-3. **Regenerate**: `node tools/generate.mjs`. Items from the weekly file are flagged **"new this week"** on every matching dashboard and placed first.
+3. **Register + deploy**: add the new file to `data/weekly/index.ts`, then `vercel deploy --prod --yes`. Items from the weekly file are flagged **"new this week"** on every matching girl's page and placed first.
+4. **Examples**: add 2–3 real "steal this format" links per active niche in `/admin` (real posts from female creators in that lane — what it is + why it works). These render as the "Steal this format" section on the girls' pages.
 
 Evergreen winners can be promoted from a weekly file into `data/content-library.json` so they enter the permanent rotation.
 

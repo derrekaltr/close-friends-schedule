@@ -1,3 +1,10 @@
-# generated output — regenerate with: node tools/generate.mjs
+# generated / local
+node_modules/
+.next/
+.data/
+.vercel
 site/
 .DS_Store
+next-env.d.ts
+*.tsbuildinfo
+.env*
