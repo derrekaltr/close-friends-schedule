@@ -20,7 +20,8 @@ export default function AdminLogin() {
   return (
     <div className="lock">
       <form className="cover" onSubmit={submit}>
-        <p className="over">ALTR · The Weekly Edit</p>
+        <img className="brand-logo" src="/altr-logo.png" alt="ALTR" />
+        <p className="over">The Weekly Edit</p>
         <h1>Manager access</h1>
         <p className="issue-line">team only</p>
         <input type="password" placeholder="admin password" aria-label="admin password"

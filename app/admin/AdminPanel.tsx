@@ -33,6 +33,7 @@ export default function AdminPanel({ creators, weekKey, persistent }: any) {
 
   return (
     <div className="admin">
+      <img className="brand-logo sm" src="/altr-logo.png" alt="ALTR" />
       <h1>The Weekly Edit</h1>
       <p className="sub">Roster &amp; content admin · week {weekKey}</p>
 
