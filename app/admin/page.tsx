@@ -12,7 +12,7 @@ export default async function AdminPage() {
   if (!verify("admin", jar.get(ADMIN_COOKIE)?.value)) return <AdminLogin />;
 
   const creators = await q(
-    "SELECT slug,name,ig_handle,email,gmail,niche,secondary_niche,aesthetic_notes,posting_notes,goals FROM creators ORDER BY name"
+    "SELECT slug,name,ig_handle,email,gmail,token,niche,secondary_niche,aesthetic_notes,posting_notes,goals FROM creators ORDER BY name"
   );
 
   return (

@@ -7,7 +7,7 @@ const NICHES: Record<string, string> = {
   "country-outdoors": "Country / Outdoors", "wellness-itgirl": "Wellness It-Girl",
 };
 
-const EMPTY = { slug: "", name: "", ig_handle: "", email: "", gmail: "", passcode: "", niche: "clean-girl", secondary_niche: "", aesthetic_notes: "", posting_notes: "", goals: "" };
+const EMPTY = { slug: "", name: "", ig_handle: "", email: "", gmail: "", niche: "clean-girl", secondary_niche: "", aesthetic_notes: "", posting_notes: "", goals: "" };
 
 export default function AdminPanel({ creators, weekKey, persistent }: any) {
   const [form, setForm] = useState<any>(EMPTY);
@@ -52,7 +52,6 @@ export default function AdminPanel({ creators, weekKey, persistent }: any) {
             <div><label>Instagram handle</label><input value={form.ig_handle} onChange={set("ig_handle")} placeholder="@her.handle" /></div>
             <div><label>Email</label><input value={form.email} onChange={set("email")} type="email" /></div>
             <div><label>Gmail (drive access)</label><input value={form.gmail} onChange={set("gmail")} type="email" /></div>
-            <div><label>Passcode {form.slug ? "(blank = keep current)" : ""}</label><input value={form.passcode} onChange={set("passcode")} placeholder="6+ characters" /></div>
             <div><label>Niche</label>
               <select value={form.niche} onChange={set("niche")}>
                 {Object.entries(NICHES).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
@@ -80,25 +79,31 @@ export default function AdminPanel({ creators, weekKey, persistent }: any) {
           <div className="msg">{msg}</div>
         </form>
         <p className="sub" style={{ marginTop: 8, marginBottom: 0 }}>
-          New girl flow: add her with just name + handle + passcode, then ask Claude to review her public profile and
-          fill in niche + aesthetic notes. Send her the link and passcode in separate messages.
+          New girl flow: add her with just name + handle, then ask Claude to review her public profile and fill in
+          niche + aesthetic notes. Her private link is the key — send it only to her, and don&apos;t post it anywhere.
         </p>
       </div>
 
       <div className="panel">
         <h2>Roster ({creators.length})</h2>
         <table className="roster">
-          <thead><tr><th>Name</th><th>IG</th><th>Niche</th><th>Her page</th><th></th></tr></thead>
+          <thead><tr><th>Name</th><th>IG</th><th>Niche</th><th>Her private link</th><th></th></tr></thead>
           <tbody>
             {creators.map((c: any) => (
               <tr key={c.slug}>
                 <td><strong>{c.name}</strong><br /><span style={{ color: "var(--soft-white)", fontSize: 15 }}>{c.email}</span></td>
                 <td>{c.ig_handle ? `@${c.ig_handle}` : "—"}</td>
                 <td>{NICHES[c.niche] || c.niche}{c.secondary_niche ? ` × ${NICHES[c.secondary_niche]}` : ""}</td>
-                <td><a href={`/g/${c.slug}`} target="_blank">/g/{c.slug}</a></td>
+                <td>
+                  <a href={`/g/${c.token}`} target="_blank">/g/{c.token}</a><br />
+                  <button className="btn ghost" style={{ padding: "6px 12px", marginTop: 6 }}
+                    onClick={() => navigator.clipboard.writeText(`${window.location.origin}/g/${c.token}`)}>
+                    Copy link
+                  </button>
+                </td>
                 <td style={{ whiteSpace: "nowrap" }}>
                   <button className="btn ghost" style={{ padding: "8px 14px", marginRight: 8 }}
-                    onClick={() => { setForm({ ...c, secondary_niche: c.secondary_niche || "", passcode: "" }); window.scrollTo({ top: 0, behavior: "smooth" }); }}>
+                    onClick={() => { setForm({ ...c, secondary_niche: c.secondary_niche || "" }); window.scrollTo({ top: 0, behavior: "smooth" }); }}>
                     Edit
                   </button>
                   <button className="btn danger" onClick={() => removeCreator(c.slug, c.name)}>Remove</button>

@@ -3,8 +3,8 @@
  * otherwise falls back to embedded Postgres (PGlite) — persistent in ./.data
  * for local dev, ephemeral in /tmp on Vercel until Neon is connected.
  */
+import { randomBytes } from "node:crypto";
 import demoCreator from "@/creators/demo-girl.json";
-import { hashPasscode } from "@/lib/auth";
 
 type Row = Record<string, any>;
 let pool: any = null;
@@ -46,7 +46,8 @@ CREATE TABLE IF NOT EXISTS creators (
   ig_handle TEXT DEFAULT '',
   email TEXT DEFAULT '',
   gmail TEXT DEFAULT '',
-  pass_hash TEXT NOT NULL,
+  pass_hash TEXT,
+  token TEXT,
   niche TEXT NOT NULL,
   secondary_niche TEXT,
   aesthetic_notes TEXT DEFAULT '',
@@ -54,7 +55,14 @@ CREATE TABLE IF NOT EXISTS creators (
   goals TEXT DEFAULT '',
   created_at TIMESTAMPTZ DEFAULT now()
 );
+ALTER TABLE creators ADD COLUMN IF NOT EXISTS token TEXT;
+ALTER TABLE creators ALTER COLUMN pass_hash DROP NOT NULL;
+CREATE UNIQUE INDEX IF NOT EXISTS creators_token_idx ON creators (token);
 `;
+
+export function newToken() {
+  return randomBytes(8).toString("hex");
+}
 
 async function ensureReady() {
   if (!readiness) {
@@ -66,10 +74,15 @@ async function ensureReady() {
       if (Number(n) === 0) {
         const d: any = demoCreator;
         await rawQuery(
-          `INSERT INTO creators (slug,name,ig_handle,email,gmail,pass_hash,niche,secondary_niche,aesthetic_notes,posting_notes,goals)
+          `INSERT INTO creators (slug,name,ig_handle,email,gmail,token,niche,secondary_niche,aesthetic_notes,posting_notes,goals)
            VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11) ON CONFLICT (slug) DO NOTHING`,
-          [d.slug, d.name, d.ig_handle ?? "", d.email, d.gmail, hashPasscode(d.passcode), d.niche, d.secondary_niche, d.aesthetic_notes, d.posting_notes, d.goals]
+          [d.slug, d.name, d.ig_handle ?? "", d.email, d.gmail, newToken(), d.niche, d.secondary_niche, d.aesthetic_notes, d.posting_notes, d.goals]
         );
+      }
+      // backfill tokens for creators made in the passcode era
+      const missing = await rawQuery("SELECT slug FROM creators WHERE token IS NULL");
+      for (const row of missing) {
+        await rawQuery("UPDATE creators SET token = $1 WHERE slug = $2", [newToken(), row.slug]);
       }
     })().catch((e) => { readiness = null; throw e; });
   }
@@ -81,7 +94,7 @@ export async function q(sql: string, params: any[] = []): Promise<Row[]> {
   return rawQuery(sql, params);
 }
 
-export async function getCreator(slug: string) {
-  const rows = await q("SELECT * FROM creators WHERE slug = $1", [slug]);
+export async function getCreatorByToken(token: string) {
+  const rows = await q("SELECT * FROM creators WHERE token = $1", [token]);
   return rows[0] ?? null;
 }

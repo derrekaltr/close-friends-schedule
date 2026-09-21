@@ -176,7 +176,7 @@ export default function IssueDashboard(props: {
         </section>
       )}
 
-      <footer className="colophon">refreshed weekly · issue {props.week} · made for {props.name} only — please don&apos;t share the passcode</footer>
+      <footer className="colophon">refreshed weekly · issue {props.week} · made for {props.name} only — this link is private, please don&apos;t share it</footer>
     </div>
   );
 }

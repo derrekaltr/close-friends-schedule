@@ -1,9 +1,6 @@
-import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
-import { getCreator } from "@/lib/db";
-import { verify, creatorCookie } from "@/lib/auth";
-import { buildPlan, NICHES, MONTHS, STICKER_LABELS, isoWeek } from "@/lib/plan";
-import LockForm from "./LockForm";
+import { getCreatorByToken } from "@/lib/db";
+import { buildPlan, NICHES, MONTHS, STICKER_LABELS } from "@/lib/plan";
 import IssueDashboard from "./IssueDashboard";
 
 export const dynamic = "force-dynamic";
@@ -11,16 +8,9 @@ export const dynamic = "force-dynamic";
 const DAY_SHORT = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
 export default async function CreatorPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const creator = await getCreator(slug);
+  const { slug: token } = await params;
+  const creator = await getCreatorByToken(token);
   if (!creator) notFound();
-
-  const jar = await cookies();
-  const unlocked = verify(`g:${creator.slug}`, jar.get(creatorCookie(creator.slug))?.value);
-  const { week, year } = isoWeek();
-  if (!unlocked) {
-    return <LockForm slug={creator.slug} firstName={creator.name.split(" ")[0]} week={week} year={year} />;
-  }
 
   const plan = buildPlan(creator as any);
   const n = NICHES[creator.niche] ?? { name: creator.niche, description: "", aesthetic: "", peer_watchlist_note: "" };
