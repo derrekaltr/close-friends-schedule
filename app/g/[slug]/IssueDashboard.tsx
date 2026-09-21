@@ -11,11 +11,11 @@ type Day = { name: string; short: string; num: number; month: string; items: Ite
 export default function IssueDashboard(props: {
   slug: string; name: string; week: number; year: number; range: string;
   nicheLabel: string; days: Day[]; todayIdx: number;
-  reels: any[]; features: any[];
+  features: any[];
   laneName: string; laneDesc: string; laneAes: string; laneWatch: string;
   aestheticNotes?: string; goals?: string;
 }) {
-  const [view, setView] = useState<"calendar" | "reels" | "features">("calendar");
+  const [view, setView] = useState<"calendar" | "features">("calendar");
   const [dayIdx, setDayIdx] = useState(props.todayIdx);
   const [done, setDone] = useState<Record<string, boolean>>({});
   const storeKey = `we_done_${props.slug}_${props.year}-${props.week}`;
@@ -49,7 +49,6 @@ export default function IssueDashboard(props: {
 
       <nav className="dash-nav" aria-label="dashboard sections">
         <button className={view === "calendar" ? "on" : ""} onClick={() => setView("calendar")}>Calendar</button>
-        <button className={view === "reels" ? "on" : ""} onClick={() => setView("reels")}>Reels</button>
         <button className={view === "features" ? "on" : ""} onClick={() => setView("features")}>Features</button>
       </nav>
 
@@ -124,27 +123,6 @@ export default function IssueDashboard(props: {
                     </div>
                   )}
                 </div>
-              </article>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {view === "reels" && (
-        <section>
-          <h2 className="view-title">Reels to film this week</h2>
-          <p className="section-note">
-            Pick two minimum. Anything marked Trial Reel goes out as a trial first — promote it to the grid only if
-            non-follower reach looks good.
-          </p>
-          <div className="reels">
-            {props.reels.map((r: any, i: number) => (
-              <article key={r.id} className="reel">
-                <span className="reel-no">{String(i + 1).padStart(2, "0")}</span>
-                <h3>&ldquo;{r.hook}&rdquo;</h3>
-                <p>{r.concept}</p>
-                <span className="tag alt">{String(r.feature).replace(/-/g, " ")}</span>
-                {r.fresh && <span className="fresh-tag">new this week</span>}
               </article>
             ))}
           </div>

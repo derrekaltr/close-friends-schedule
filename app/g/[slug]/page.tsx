@@ -43,7 +43,6 @@ export default async function CreatorPage({ params }: { params: Promise<{ slug: 
       nicheLabel={`${n.name}${n2 ? ` × ${n2.name}` : ""}`}
       days={days}
       todayIdx={todayIdx}
-      reels={JSON.parse(JSON.stringify(plan.reels))}
       features={JSON.parse(JSON.stringify(plan.features))}
       laneName={n.name}
       laneDesc={n.description}
