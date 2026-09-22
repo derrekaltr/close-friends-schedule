@@ -1,0 +1,19 @@
+"$schema" = "https://conductor.build/schemas/settings.repo.schema.json"
+
+[scripts]
+# Installs deps and creates a gitignored .env.local with safe dev defaults.
+# Real secrets (Vercel ADMIN_PASSWORD / AUTH_SECRET / Neon DATABASE_URL) are
+# never in the repo — see HANDOFF.md. Local dev needs none of them: the app
+# falls back to embedded Postgres (PGlite) in .data/.
+setup = "npm install && [ -f .env.local ] || printf 'ADMIN_PASSWORD=admin-dev\\nAUTH_SECRET=dev-secret-change-me\\n' > .env.local"
+run_mode = "concurrent"
+
+[scripts.run.dev]
+available_in = [ "local" ]
+command = "npx next dev --port $CONDUCTOR_PORT"
+default = true
+icon = "play"
+
+[scripts.run.build]
+command = "npx next build"
+icon = "hammer"
